@@ -1,0 +1,708 @@
+INDEX,GRAIN_PATH,ORIGIN,ROW,LANDRACE,IS_BERE,IS_FARO,IS_UNKNOWN,KFOLD,TRAIN(0|1|2)/VALIDATION(3)/TEST(4)
+68,/Dundee/2ROW British/DHBT16P20 4.stl,Dundee,2,British,0,0,0,0,train
+112,/Dundee/2ROW British/DHBT16P20 2.stl,Dundee,2,British,0,0,0,0,train
+82,/Dundee/2ROW British/DHBT16P103 1.stl,Dundee,2,British,0,0,0,0,train
+50,/Dundee/2ROW British/DHBT16P103 2.stl,Dundee,2,British,0,0,0,0,train
+41,/Dundee/2ROW British/DHBT16T25 9.stl,Dundee,2,British,0,0,0,0,train
+16,/Dundee/2ROW British/DHBT16T31 9.stl,Dundee,2,British,0,0,0,0,train
+84,/Dundee/2ROW British/DHBT16T31 5.stl,Dundee,2,British,0,0,0,0,train
+88,/Dundee/2ROW British/DHBT16T31 7.stl,Dundee,2,British,0,0,0,0,train
+95,/Dundee/2ROW British/DHBT16P50 2.stl,Dundee,2,British,0,0,0,0,train
+62,/Dundee/2ROW British/DHBT16P50 3.stl,Dundee,2,British,0,0,0,0,train
+30,/Dundee/2ROW British/DHBT16P26 8.stl,Dundee,2,British,0,0,0,0,train
+73,/Dundee/2ROW British/DHBT16T31 10.stl,Dundee,2,British,0,0,0,0,train
+9,/Dundee/2ROW British/DHBT16P35 6.stl,Dundee,2,British,0,0,0,0,train
+106,/Dundee/2ROW British/DHBT16T37 10.stl,Dundee,2,British,0,0,0,0,train
+47,/Dundee/2ROW British/DHBT16P35 5.stl,Dundee,2,British,0,0,0,0,train
+76,/Dundee/2ROW British/DHBT16T31 1.stl,Dundee,2,British,0,0,0,0,train
+107,/Dundee/2ROW British/DHBT16P55 7.stl,Dundee,2,British,0,0,0,0,train
+92,/Dundee/2ROW British/DHBT16P19 6.stl,Dundee,2,British,0,0,0,0,train
+26,/Dundee/2ROW British/DHBT16T37 9.stl,Dundee,2,British,0,0,0,0,train
+37,/Dundee/2ROW British/DHBT16P43 1.stl,Dundee,2,British,0,0,0,0,train
+1,/Dundee/2ROW British/DHBT16T37 4.stl,Dundee,2,British,0,0,0,0,train
+32,/Dundee/2ROW British/DHBT16P20 9.stl,Dundee,2,British,0,0,0,0,train
+21,/Dundee/2ROW British/DHBT16P20 3.stl,Dundee,2,British,0,0,0,0,train
+7,/Dundee/2ROW British/DHBT16P55 9.stl,Dundee,2,British,0,0,0,0,train
+34,/Dundee/2ROW British/DHBT16P27 2.stl,Dundee,2,British,0,0,0,1,train
+80,/Dundee/2ROW British/DHBT16T31 4.stl,Dundee,2,British,0,0,0,1,train
+117,/Dundee/2ROW British/DHBT16P55 2.stl,Dundee,2,British,0,0,0,1,train
+8,/Dundee/2ROW British/DHBT16T25 7.stl,Dundee,2,British,0,0,0,1,train
+60,/Dundee/2ROW British/DHBT16P55 8.stl,Dundee,2,British,0,0,0,1,train
+52,/Dundee/2ROW British/DHBT16P43 5.stl,Dundee,2,British,0,0,0,1,train
+46,/Dundee/2ROW British/DHBT16P43 2.stl,Dundee,2,British,0,0,0,1,train
+65,/Dundee/2ROW British/DHBT16P16 6.stl,Dundee,2,British,0,0,0,1,train
+38,/Dundee/2ROW British/DHBT16P35 7.stl,Dundee,2,British,0,0,0,1,train
+51,/Dundee/2ROW British/DHBT16T31 3.stl,Dundee,2,British,0,0,0,1,train
+49,/Dundee/2ROW British/DHBT16P26 4.stl,Dundee,2,British,0,0,0,1,train
+74,/Dundee/2ROW British/DHBT16T37 1.stl,Dundee,2,British,0,0,0,1,train
+22,/Dundee/2ROW British/DHBT16P19 2.stl,Dundee,2,British,0,0,0,1,train
+66,/Dundee/2ROW British/DHBT16P35 2.stl,Dundee,2,British,0,0,0,1,train
+63,/Dundee/2ROW British/DHBT16P16 1.stl,Dundee,2,British,0,0,0,1,train
+85,/Dundee/2ROW British/DHBT16P35 10.stl,Dundee,2,British,0,0,0,1,train
+59,/Dundee/2ROW British/DHBT16P26 2.stl,Dundee,2,British,0,0,0,1,train
+97,/Dundee/2ROW British/DHBT16P20 1.stl,Dundee,2,British,0,0,0,1,train
+110,/Dundee/2ROW British/DHBT16P16 8.stl,Dundee,2,British,0,0,0,1,train
+24,/Dundee/2ROW British/DHBT16P20 5.stl,Dundee,2,British,0,0,0,1,train
+6,/Dundee/2ROW British/DHBT16P55 5.stl,Dundee,2,British,0,0,0,1,train
+96,/Dundee/2ROW British/DHBT16P35 8.stl,Dundee,2,British,0,0,0,1,train
+67,/Dundee/2ROW British/DHBT16P103 5.stl,Dundee,2,British,0,0,0,1,train
+61,/Dundee/2ROW British/DHBT16P16 9.stl,Dundee,2,British,0,0,0,2,train
+116,/Dundee/2ROW British/DHBT16P16 5.stl,Dundee,2,British,0,0,0,2,train
+42,/Dundee/2ROW British/DHBT16T37 2.stl,Dundee,2,British,0,0,0,2,train
+2,/Dundee/2ROW British/DHBT16P55 3.stl,Dundee,2,British,0,0,0,2,train
+101,/Dundee/2ROW British/DHBT16P103 4.stl,Dundee,2,British,0,0,0,2,train
+70,/Dundee/2ROW British/DHBT16P26 7.stl,Dundee,2,British,0,0,0,2,train
+93,/Dundee/2ROW British/DHBT16P44 1.stl,Dundee,2,British,0,0,0,2,train
+36,/Dundee/2ROW British/DHBT16P19 3.stl,Dundee,2,British,0,0,0,2,train
+23,/Dundee/2ROW British/DHBT16P103 7.stl,Dundee,2,British,0,0,0,2,train
+55,/Dundee/2ROW British/DHBT16P19 4.stl,Dundee,2,British,0,0,0,2,train
+56,/Dundee/2ROW British/DHBT16P27 9.stl,Dundee,2,British,0,0,0,2,train
+39,/Dundee/2ROW British/DHBT16P55 6.stl,Dundee,2,British,0,0,0,2,train
+40,/Dundee/2ROW British/DHBT16P35 3.stl,Dundee,2,British,0,0,0,2,train
+87,/Dundee/2ROW British/DHBT16P27 7.stl,Dundee,2,British,0,0,0,2,train
+18,/Dundee/2ROW British/DHBT16P19 7.stl,Dundee,2,British,0,0,0,2,train
+78,/Dundee/2ROW British/DHBT16T25 2.stl,Dundee,2,British,0,0,0,2,train
+10,/Dundee/2ROW British/DHBT16P20 10.stl,Dundee,2,British,0,0,0,2,train
+72,/Dundee/2ROW British/DHBT16P27 1.stl,Dundee,2,British,0,0,0,2,train
+15,/Dundee/2ROW British/DHBT16P50 1.stl,Dundee,2,British,0,0,0,2,train
+58,/Dundee/2ROW British/DHBT16P26 1.stl,Dundee,2,British,0,0,0,2,train
+5,/Dundee/2ROW British/DHBT16P16 7.stl,Dundee,2,British,0,0,0,2,train
+33,/Dundee/2ROW British/DHBT16P27 5.stl,Dundee,2,British,0,0,0,2,train
+44,/Dundee/2ROW British/DHBT16P103 6.stl,Dundee,2,British,0,0,0,2,train
+45,/Dundee/2ROW British/DHBT16T25 8.stl,Dundee,2,British,0,0,0,3,validation
+12,/Dundee/2ROW British/DHBT16P103 9.stl,Dundee,2,British,0,0,0,3,validation
+48,/Dundee/2ROW British/DHBT16T37 8.stl,Dundee,2,British,0,0,0,3,validation
+99,/Dundee/2ROW British/DHBT16T31 6.stl,Dundee,2,British,0,0,0,3,validation
+108,/Dundee/2ROW British/DHBT16P16 4.stl,Dundee,2,British,0,0,0,3,validation
+79,/Dundee/2ROW British/DHBT16P26 5.stl,Dundee,2,British,0,0,0,3,validation
+98,/Dundee/2ROW British/DHBT16P19 8.stl,Dundee,2,British,0,0,0,3,validation
+19,/Dundee/2ROW British/DHBT16P20 8.stl,Dundee,2,British,0,0,0,3,validation
+90,/Dundee/2ROW British/DHBT16P55 4.stl,Dundee,2,British,0,0,0,3,validation
+43,/Dundee/2ROW British/DHBT16P19 5.stl,Dundee,2,British,0,0,0,3,validation
+102,/Dundee/2ROW British/DHBT16P27 8.stl,Dundee,2,British,0,0,0,3,validation
+20,/Dundee/2ROW British/DHBT16P103 10.stl,Dundee,2,British,0,0,0,3,validation
+0,/Dundee/2ROW British/DHBT16P43 3.stl,Dundee,2,British,0,0,0,3,validation
+113,/Dundee/2ROW British/DHBT16P20 6.stl,Dundee,2,British,0,0,0,3,validation
+103,/Dundee/2ROW British/DHBT16P44 5.stl,Dundee,2,British,0,0,0,3,validation
+57,/Dundee/2ROW British/DHBT16P35 1.stl,Dundee,2,British,0,0,0,3,validation
+111,/Dundee/2ROW British/DHBT16P19 9.stl,Dundee,2,British,0,0,0,3,validation
+53,/Dundee/2ROW British/DHBT16T25 5.stl,Dundee,2,British,0,0,0,3,validation
+105,/Dundee/2ROW British/DHBT16P43 4.stl,Dundee,2,British,0,0,0,3,validation
+89,/Dundee/2ROW British/DHBT16T25 1.stl,Dundee,2,British,0,0,0,3,validation
+83,/Dundee/2ROW British/DHBT16T37 5.stl,Dundee,2,British,0,0,0,3,validation
+91,/Dundee/2ROW British/DHBT16T25 3.stl,Dundee,2,British,0,0,0,3,validation
+25,/Dundee/2ROW British/DHBT16P55 1.stl,Dundee,2,British,0,0,0,3,validation
+71,/Dundee/2ROW British/DHBT16P16 3.stl,Dundee,2,British,0,0,0,4,test
+100,/Dundee/2ROW British/DHBT16T37 7.stl,Dundee,2,British,0,0,0,4,test
+77,/Dundee/2ROW British/DHBT16P19 1.stl,Dundee,2,British,0,0,0,4,test
+64,/Dundee/2ROW British/DHBT16P44 2.stl,Dundee,2,British,0,0,0,4,test
+29,/Dundee/2ROW British/DHBT16P27 6.stl,Dundee,2,British,0,0,0,4,test
+27,/Dundee/2ROW British/DHBT16P103 8.stl,Dundee,2,British,0,0,0,4,test
+104,/Dundee/2ROW British/DHBT16P16 2.stl,Dundee,2,British,0,0,0,4,test
+115,/Dundee/2ROW British/DHBT16P103 3.stl,Dundee,2,British,0,0,0,4,test
+4,/Dundee/2ROW British/DHBT16P26 3.stl,Dundee,2,British,0,0,0,4,test
+54,/Dundee/2ROW British/DHBT16P20 7.stl,Dundee,2,British,0,0,0,4,test
+75,/Dundee/2ROW British/DHBT16P50 4.stl,Dundee,2,British,0,0,0,4,test
+11,/Dundee/2ROW British/DHBT16P44 3.stl,Dundee,2,British,0,0,0,4,test
+69,/Dundee/2ROW British/DHBT16P26 6.stl,Dundee,2,British,0,0,0,4,test
+109,/Dundee/2ROW British/DHBT16T37 6.stl,Dundee,2,British,0,0,0,4,test
+86,/Dundee/2ROW British/DHBT16T37 3.stl,Dundee,2,British,0,0,0,4,test
+13,/Dundee/2ROW British/DHBT16T31 8.stl,Dundee,2,British,0,0,0,4,test
+114,/Dundee/2ROW British/DHBT16T25 6.stl,Dundee,2,British,0,0,0,4,test
+17,/Dundee/2ROW British/DHBT16T25 4.stl,Dundee,2,British,0,0,0,4,test
+28,/Dundee/2ROW British/DHBT16P35 4.stl,Dundee,2,British,0,0,0,4,test
+31,/Dundee/2ROW British/DHBT16P35 9.stl,Dundee,2,British,0,0,0,4,test
+35,/Dundee/2ROW British/DHBT16P44 4.stl,Dundee,2,British,0,0,0,4,test
+94,/Dundee/2ROW British/DHBT16T31 2.stl,Dundee,2,British,0,0,0,4,test
+3,/Dundee/2ROW British/DHBT16P27 3.stl,Dundee,2,British,0,0,0,4,test
+14,/Dundee/2ROW British/DHBT16P26 9.stl,Dundee,2,British,0,0,0,4,test
+81,/Dundee/2ROW British/DHBT16P19 10.stl,Dundee,2,British,0,0,0,4,test
+144,/Dundee/2ROW Scottish/DHBT16T36 1.stl,Dundee,2,Scottish,0,0,0,0,train
+142,/Dundee/2ROW Scottish/DHBT16T86 6.stl,Dundee,2,Scottish,0,0,0,0,train
+129,/Dundee/2ROW Scottish/DHBT16T23 10.stl,Dundee,2,Scottish,0,0,0,0,train
+161,/Dundee/2ROW Scottish/DHBT16T86 5.stl,Dundee,2,Scottish,0,0,0,0,train
+133,/Dundee/2ROW Scottish/DHBT16T36 3.stl,Dundee,2,Scottish,0,0,0,0,train
+154,/Dundee/2ROW Scottish/DHBT16P10 5.stl,Dundee,2,Scottish,0,0,0,0,train
+160,/Dundee/2ROW Scottish/DHBT16T23 5.stl,Dundee,2,Scottish,0,0,0,0,train
+119,/Dundee/2ROW Scottish/DHBT16T23 4.stl,Dundee,2,Scottish,0,0,0,0,train
+131,/Dundee/2ROW Scottish/DHBT16T23 9.stl,Dundee,2,Scottish,0,0,0,0,train
+136,/Dundee/2ROW Scottish/DHBT16T86 10.stl,Dundee,2,Scottish,0,0,0,0,train
+122,/Dundee/2ROW Scottish/DHBT16P60 1.stl,Dundee,2,Scottish,0,0,0,0,train
+139,/Dundee/2ROW Scottish/DHBT16P10 1.stl,Dundee,2,Scottish,0,0,0,1,train
+167,/Dundee/2ROW Scottish/DHBT16T86 7.stl,Dundee,2,Scottish,0,0,0,1,train
+147,/Dundee/2ROW Scottish/DHBT16P10 2.stl,Dundee,2,Scottish,0,0,0,1,train
+124,/Dundee/2ROW Scottish/DHBT16T86 2.stl,Dundee,2,Scottish,0,0,0,1,train
+151,/Dundee/2ROW Scottish/DHBT16P10 9.stl,Dundee,2,Scottish,0,0,0,1,train
+138,/Dundee/2ROW Scottish/DHBT16T86 8.stl,Dundee,2,Scottish,0,0,0,1,train
+156,/Dundee/2ROW Scottish/DHBT16T36 2.stl,Dundee,2,Scottish,0,0,0,1,train
+159,/Dundee/2ROW Scottish/DHBT16T23 3.stl,Dundee,2,Scottish,0,0,0,1,train
+140,/Dundee/2ROW Scottish/DHBT16P60 3.stl,Dundee,2,Scottish,0,0,0,1,train
+166,/Dundee/2ROW Scottish/DHBT16T36 5.stl,Dundee,2,Scottish,0,0,0,1,train
+118,/Dundee/2ROW Scottish/DHBT16T23 6.stl,Dundee,2,Scottish,0,0,0,2,train
+135,/Dundee/2ROW Scottish/DHBT16T36 8.stl,Dundee,2,Scottish,0,0,0,2,train
+157,/Dundee/2ROW Scottish/DHBT16P10 8.stl,Dundee,2,Scottish,0,0,0,2,train
+164,/Dundee/2ROW Scottish/DHBT16P60 2.stl,Dundee,2,Scottish,0,0,0,2,train
+158,/Dundee/2ROW Scottish/DHBT16P22 5.stl,Dundee,2,Scottish,0,0,0,2,train
+148,/Dundee/2ROW Scottish/DHBT16P60 5.stl,Dundee,2,Scottish,0,0,0,2,train
+146,/Dundee/2ROW Scottish/DHBT16P22 3.stl,Dundee,2,Scottish,0,0,0,2,train
+130,/Dundee/2ROW Scottish/DHBT16T86 9.stl,Dundee,2,Scottish,0,0,0,2,train
+120,/Dundee/2ROW Scottish/DHBT16P22 2.stl,Dundee,2,Scottish,0,0,0,2,train
+137,/Dundee/2ROW Scottish/DHBT16T23 2.stl,Dundee,2,Scottish,0,0,0,2,train
+162,/Dundee/2ROW Scottish/DHBT16T23 7.stl,Dundee,2,Scottish,0,0,0,3,validation
+128,/Dundee/2ROW Scottish/DHBT16P10 4.stl,Dundee,2,Scottish,0,0,0,3,validation
+127,/Dundee/2ROW Scottish/DHBT16P60 4.stl,Dundee,2,Scottish,0,0,0,3,validation
+125,/Dundee/2ROW Scottish/DHBT16P10 10.stl,Dundee,2,Scottish,0,0,0,3,validation
+121,/Dundee/2ROW Scottish/DHBT16T86 3.stl,Dundee,2,Scottish,0,0,0,3,validation
+123,/Dundee/2ROW Scottish/DHBT16T36 6.stl,Dundee,2,Scottish,0,0,0,3,validation
+149,/Dundee/2ROW Scottish/DHBT16T86 4.stl,Dundee,2,Scottish,0,0,0,3,validation
+150,/Dundee/2ROW Scottish/DHBT16P22 1.stl,Dundee,2,Scottish,0,0,0,3,validation
+126,/Dundee/2ROW Scottish/DHBT16P22 4.stl,Dundee,2,Scottish,0,0,0,3,validation
+132,/Dundee/2ROW Scottish/DHBT16P10 6.stl,Dundee,2,Scottish,0,0,0,3,validation
+141,/Dundee/2ROW Scottish/DHBT16T36 9.stl,Dundee,2,Scottish,0,0,0,4,test
+143,/Dundee/2ROW Scottish/DHBT16T86 1.stl,Dundee,2,Scottish,0,0,0,4,test
+163,/Dundee/2ROW Scottish/DHBT16T36 7.stl,Dundee,2,Scottish,0,0,0,4,test
+145,/Dundee/2ROW Scottish/DHBT16T23 8.stl,Dundee,2,Scottish,0,0,0,4,test
+155,/Dundee/2ROW Scottish/DHBT16T36 10.stl,Dundee,2,Scottish,0,0,0,4,test
+134,/Dundee/2ROW Scottish/DHBT16T23 1.stl,Dundee,2,Scottish,0,0,0,4,test
+152,/Dundee/2ROW Scottish/DHBT16P10 7.stl,Dundee,2,Scottish,0,0,0,4,test
+153,/Dundee/2ROW Scottish/DHBT16P10 3.stl,Dundee,2,Scottish,0,0,0,4,test
+165,/Dundee/2ROW Scottish/DHBT16T36 4.stl,Dundee,2,Scottish,0,0,0,4,test
+175,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 10.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+179,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 4.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+170,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 2.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+174,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 9.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+176,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T82 4.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+181,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T83 4.stl,Dundee,6,BERE Orkney,1,0,0,0,train
+177,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T83 2.stl,Dundee,6,BERE Orkney,1,0,0,1,train
+169,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T66 2.stl,Dundee,6,BERE Orkney,1,0,0,1,train
+186,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T66 1.stl,Dundee,6,BERE Orkney,1,0,0,1,train
+189,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T82 2.stl,Dundee,6,BERE Orkney,1,0,0,1,train
+190,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T82 3.stl,Dundee,6,BERE Orkney,1,0,0,1,train
+172,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 8.stl,Dundee,6,BERE Orkney,1,0,0,2,train
+180,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T66 3.stl,Dundee,6,BERE Orkney,1,0,0,2,train
+191,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 5.stl,Dundee,6,BERE Orkney,1,0,0,2,train
+182,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T66 5.stl,Dundee,6,BERE Orkney,1,0,0,2,train
+171,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 6.stl,Dundee,6,BERE Orkney,1,0,0,2,train
+188,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 1.stl,Dundee,6,BERE Orkney,1,0,0,3,validation
+183,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 3.stl,Dundee,6,BERE Orkney,1,0,0,3,validation
+178,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T83 3.stl,Dundee,6,BERE Orkney,1,0,0,3,validation
+187,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T82 5.stl,Dundee,6,BERE Orkney,1,0,0,3,validation
+168,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16P72 7.stl,Dundee,6,BERE Orkney,1,0,0,3,validation
+184,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T83 1.stl,Dundee,6,BERE Orkney,1,0,0,4,test
+185,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T82 1.stl,Dundee,6,BERE Orkney,1,0,0,4,test
+173,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T66 4.stl,Dundee,6,BERE Orkney,1,0,0,4,test
+192,/Dundee/6ROW Bere/6ROW BERE Orkney/DHBT16T83 5.stl,Dundee,6,BERE Orkney,1,0,0,4,test
+193,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 1.stl,Dundee,6,BERE Unknown,1,0,1,0,train
+194,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 10.stl,Dundee,6,BERE Unknown,1,0,1,0,train
+200,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 9.stl,Dundee,6,BERE Unknown,1,0,1,0,train
+204,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 6.stl,Dundee,6,BERE Unknown,1,0,1,0,train
+195,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 7.stl,Dundee,6,BERE Unknown,1,0,1,0,train
+209,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 5.stl,Dundee,6,BERE Unknown,1,0,1,1,train
+205,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 9.stl,Dundee,6,BERE Unknown,1,0,1,1,train
+212,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 4.stl,Dundee,6,BERE Unknown,1,0,1,1,train
+203,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 3.stl,Dundee,6,BERE Unknown,1,0,1,1,train
+207,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 8.stl,Dundee,6,BERE Unknown,1,0,1,2,train
+196,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 10.stl,Dundee,6,BERE Unknown,1,0,1,2,train
+199,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 2.stl,Dundee,6,BERE Unknown,1,0,1,2,train
+202,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 4.stl,Dundee,6,BERE Unknown,1,0,1,2,train
+206,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 3.stl,Dundee,6,BERE Unknown,1,0,1,3,validation
+211,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 5.stl,Dundee,6,BERE Unknown,1,0,1,3,validation
+201,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 1.stl,Dundee,6,BERE Unknown,1,0,1,3,validation
+198,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 6.stl,Dundee,6,BERE Unknown,1,0,1,3,validation
+210,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P74 7.stl,Dundee,6,BERE Unknown,1,0,1,4,test
+208,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 8.stl,Dundee,6,BERE Unknown,1,0,1,4,test
+197,/Dundee/6ROW Bere/6ROW BERE Unknown/DHBT16P4 2.stl,Dundee,6,BERE Unknown,1,0,1,4,test
+247,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 10.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+222,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 3.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+238,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 1.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+240,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 7.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+218,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 1.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+226,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 6.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+219,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 6.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+224,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 3.stl,Dundee,6,BERE Western Isles,1,0,0,0,train
+225,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T77 3.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+229,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 6.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+221,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P79 3.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+216,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 4.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+248,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 2.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+242,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 4.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+246,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 4.stl,Dundee,6,BERE Western Isles,1,0,0,1,train
+236,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 9.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+232,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 10.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+223,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 8.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+245,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 8.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+237,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 2.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+239,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 5.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+244,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 10.stl,Dundee,6,BERE Western Isles,1,0,0,2,train
+233,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 3.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+235,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 7.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+215,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 2.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+213,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T77 2.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+241,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T77 4.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+243,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T63 5.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+249,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 7.stl,Dundee,6,BERE Western Isles,1,0,0,3,validation
+230,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P79 1.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+231,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 9.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+214,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 9.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+234,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 8.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+217,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P61 5.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+227,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T77 1.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+228,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16T64 1.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+220,/Dundee/6ROW Bere/6ROW BERE Western Isles/DHBT16P79 2.stl,Dundee,6,BERE Western Isles,1,0,0,4,test
+252,/Dundee/6ROW Faro/DHBT16T93 4.stl,Dundee,6,Faro,0,1,0,0,train
+251,/Dundee/6ROW Faro/DHBT16T102 2.stl,Dundee,6,Faro,0,1,0,0,train
+258,/Dundee/6ROW Faro/DHBT16T93 1.stl,Dundee,6,Faro,0,1,0,0,train
+254,/Dundee/6ROW Faro/DHBT16T102 1.stl,Dundee,6,Faro,0,1,0,1,train
+250,/Dundee/6ROW Faro/DHBT16T102 3.stl,Dundee,6,Faro,0,1,0,1,train
+257,/Dundee/6ROW Faro/DHBT16T93 5.stl,Dundee,6,Faro,0,1,0,2,train
+253,/Dundee/6ROW Faro/DHBT16T102 5.stl,Dundee,6,Faro,0,1,0,2,train
+259,/Dundee/6ROW Faro/DHBT16T93 2.stl,Dundee,6,Faro,0,1,0,3,validation
+255,/Dundee/6ROW Faro/DHBT16T93 3.stl,Dundee,6,Faro,0,1,0,3,validation
+256,/Dundee/6ROW Faro/DHBT16T102 4.stl,Dundee,6,Faro,0,1,0,4,test
+337,/Dundee/6ROW Scandinavian/DHBT16P89 1.stl,Dundee,6,Scandinavian,0,0,0,0,train
+264,/Dundee/6ROW Scandinavian/DHBT16T56 1.stl,Dundee,6,Scandinavian,0,0,0,0,train
+323,/Dundee/6ROW Scandinavian/DHBT16P97 2.stl,Dundee,6,Scandinavian,0,0,0,0,train
+275,/Dundee/6ROW Scandinavian/DHBT16P92 9.stl,Dundee,6,Scandinavian,0,0,0,0,train
+326,/Dundee/6ROW Scandinavian/DHBT16P88 4.stl,Dundee,6,Scandinavian,0,0,0,0,train
+333,/Dundee/6ROW Scandinavian/DHBT16P99 4.stl,Dundee,6,Scandinavian,0,0,0,0,train
+296,/Dundee/6ROW Scandinavian/DHBT16P92 3.stl,Dundee,6,Scandinavian,0,0,0,0,train
+282,/Dundee/6ROW Scandinavian/DHBT16P90 1.stl,Dundee,6,Scandinavian,0,0,0,0,train
+268,/Dundee/6ROW Scandinavian/DHBT16P88 1.stl,Dundee,6,Scandinavian,0,0,0,0,train
+339,/Dundee/6ROW Scandinavian/DHBT16T56 2.stl,Dundee,6,Scandinavian,0,0,0,0,train
+318,/Dundee/6ROW Scandinavian/DHBT16P89 9.stl,Dundee,6,Scandinavian,0,0,0,0,train
+299,/Dundee/6ROW Scandinavian/DHBT16P99 5.stl,Dundee,6,Scandinavian,0,0,0,0,train
+313,/Dundee/6ROW Scandinavian/DHBT16P101 1.stl,Dundee,6,Scandinavian,0,0,0,0,train
+274,/Dundee/6ROW Scandinavian/DHBT16P96 5.stl,Dundee,6,Scandinavian,0,0,0,0,train
+306,/Dundee/6ROW Scandinavian/DHBT16P96 3.stl,Dundee,6,Scandinavian,0,0,0,0,train
+300,/Dundee/6ROW Scandinavian/DHBT16P96 7.stl,Dundee,6,Scandinavian,0,0,0,0,train
+292,/Dundee/6ROW Scandinavian/DHBT16P92 2.stl,Dundee,6,Scandinavian,0,0,0,0,train
+301,/Dundee/6ROW Scandinavian/DHBT16T56 3.stl,Dundee,6,Scandinavian,0,0,0,0,train
+267,/Dundee/6ROW Scandinavian/DHBT16P89 6.stl,Dundee,6,Scandinavian,0,0,0,1,train
+324,/Dundee/6ROW Scandinavian/DHBT16P89 5.stl,Dundee,6,Scandinavian,0,0,0,1,train
+279,/Dundee/6ROW Scandinavian/DHBT16T106 4.stl,Dundee,6,Scandinavian,0,0,0,1,train
+335,/Dundee/6ROW Scandinavian/DHBT16P89 7.stl,Dundee,6,Scandinavian,0,0,0,1,train
+286,/Dundee/6ROW Scandinavian/DHBT16P101 6.stl,Dundee,6,Scandinavian,0,0,0,1,train
+262,/Dundee/6ROW Scandinavian/DHBT16T106 3.stl,Dundee,6,Scandinavian,0,0,0,1,train
+288,/Dundee/6ROW Scandinavian/DHBT16P96 6.stl,Dundee,6,Scandinavian,0,0,0,1,train
+327,/Dundee/6ROW Scandinavian/DHBT16P101 2.stl,Dundee,6,Scandinavian,0,0,0,1,train
+265,/Dundee/6ROW Scandinavian/DHBT16T56 7.stl,Dundee,6,Scandinavian,0,0,0,1,train
+344,/Dundee/6ROW Scandinavian/DHBT16P96 2.stl,Dundee,6,Scandinavian,0,0,0,1,train
+307,/Dundee/6ROW Scandinavian/DHBT16P90 2.stl,Dundee,6,Scandinavian,0,0,0,1,train
+309,/Dundee/6ROW Scandinavian/DHBT16P90 4.stl,Dundee,6,Scandinavian,0,0,0,1,train
+311,/Dundee/6ROW Scandinavian/DHBT16P88 9.stl,Dundee,6,Scandinavian,0,0,0,1,train
+321,/Dundee/6ROW Scandinavian/DHBT16T106 5.stl,Dundee,6,Scandinavian,0,0,0,1,train
+293,/Dundee/6ROW Scandinavian/DHBT16P96 4.stl,Dundee,6,Scandinavian,0,0,0,1,train
+305,/Dundee/6ROW Scandinavian/DHBT16T56 8.stl,Dundee,6,Scandinavian,0,0,0,1,train
+280,/Dundee/6ROW Scandinavian/DHBT16P89 3.stl,Dundee,6,Scandinavian,0,0,0,1,train
+298,/Dundee/6ROW Scandinavian/DHBT16T56 4.stl,Dundee,6,Scandinavian,0,0,0,2,train
+294,/Dundee/6ROW Scandinavian/DHBT16P89 4.stl,Dundee,6,Scandinavian,0,0,0,2,train
+297,/Dundee/6ROW Scandinavian/DHBT16P92 6.stl,Dundee,6,Scandinavian,0,0,0,2,train
+330,/Dundee/6ROW Scandinavian/DHBT16P99 1.stl,Dundee,6,Scandinavian,0,0,0,2,train
+320,/Dundee/6ROW Scandinavian/DHBT16T95 4.stl,Dundee,6,Scandinavian,0,0,0,2,train
+308,/Dundee/6ROW Scandinavian/DHBT16P89 2.stl,Dundee,6,Scandinavian,0,0,0,2,train
+329,/Dundee/6ROW Scandinavian/DHBT16P88 5.stl,Dundee,6,Scandinavian,0,0,0,2,train
+331,/Dundee/6ROW Scandinavian/DHBT16P88 2.stl,Dundee,6,Scandinavian,0,0,0,2,train
+322,/Dundee/6ROW Scandinavian/DHBT16T56 6.stl,Dundee,6,Scandinavian,0,0,0,2,train
+302,/Dundee/6ROW Scandinavian/DHBT16T56 5.stl,Dundee,6,Scandinavian,0,0,0,2,train
+334,/Dundee/6ROW Scandinavian/DHBT16P92 4.stl,Dundee,6,Scandinavian,0,0,0,2,train
+304,/Dundee/6ROW Scandinavian/DHBT16P96 10.stl,Dundee,6,Scandinavian,0,0,0,2,train
+287,/Dundee/6ROW Scandinavian/DHBT16T95 5.stl,Dundee,6,Scandinavian,0,0,0,2,train
+278,/Dundee/6ROW Scandinavian/DHBT16P101 8.stl,Dundee,6,Scandinavian,0,0,0,2,train
+289,/Dundee/6ROW Scandinavian/DHBT16P96 8.stl,Dundee,6,Scandinavian,0,0,0,2,train
+310,/Dundee/6ROW Scandinavian/DHBT16P96 9.stl,Dundee,6,Scandinavian,0,0,0,2,train
+276,/Dundee/6ROW Scandinavian/DHBT16P92 10.stl,Dundee,6,Scandinavian,0,0,0,2,train
+336,/Dundee/6ROW Scandinavian/DHBT16P97 4.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+260,/Dundee/6ROW Scandinavian/DHBT16T87 2.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+340,/Dundee/6ROW Scandinavian/DHBT16T95 2.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+270,/Dundee/6ROW Scandinavian/DHBT16P99 3.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+263,/Dundee/6ROW Scandinavian/DHBT16P88 8.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+338,/Dundee/6ROW Scandinavian/DHBT16P99 2.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+285,/Dundee/6ROW Scandinavian/DHBT16T56 10.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+315,/Dundee/6ROW Scandinavian/DHBT16P88 3.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+343,/Dundee/6ROW Scandinavian/DHBT16P88 6.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+325,/Dundee/6ROW Scandinavian/DHBT16P90 5.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+332,/Dundee/6ROW Scandinavian/DHBT16T95 3.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+312,/Dundee/6ROW Scandinavian/DHBT16T87 1.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+281,/Dundee/6ROW Scandinavian/DHBT16T56 9.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+290,/Dundee/6ROW Scandinavian/DHBT16P97 1.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+271,/Dundee/6ROW Scandinavian/DHBT16P92 8.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+261,/Dundee/6ROW Scandinavian/DHBT16P101 5.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+266,/Dundee/6ROW Scandinavian/DHBT16P92 5.stl,Dundee,6,Scandinavian,0,0,0,3,validation
+272,/Dundee/6ROW Scandinavian/DHBT16P97 3.stl,Dundee,6,Scandinavian,0,0,0,4,test
+316,/Dundee/6ROW Scandinavian/DHBT16P101 4.stl,Dundee,6,Scandinavian,0,0,0,4,test
+269,/Dundee/6ROW Scandinavian/DHBT16T87 4.stl,Dundee,6,Scandinavian,0,0,0,4,test
+342,/Dundee/6ROW Scandinavian/DHBT16P92 1.stl,Dundee,6,Scandinavian,0,0,0,4,test
+319,/Dundee/6ROW Scandinavian/DHBT16P97 5.stl,Dundee,6,Scandinavian,0,0,0,4,test
+295,/Dundee/6ROW Scandinavian/DHBT16P92 7.stl,Dundee,6,Scandinavian,0,0,0,4,test
+283,/Dundee/6ROW Scandinavian/DHBT16P101 3.stl,Dundee,6,Scandinavian,0,0,0,4,test
+314,/Dundee/6ROW Scandinavian/DHBT16T95 1.stl,Dundee,6,Scandinavian,0,0,0,4,test
+277,/Dundee/6ROW Scandinavian/DHBT16P96 1.stl,Dundee,6,Scandinavian,0,0,0,4,test
+317,/Dundee/6ROW Scandinavian/DHBT16T87 3.stl,Dundee,6,Scandinavian,0,0,0,4,test
+328,/Dundee/6ROW Scandinavian/DHBT16P101 7.stl,Dundee,6,Scandinavian,0,0,0,4,test
+341,/Dundee/6ROW Scandinavian/DHBT16P89 8.stl,Dundee,6,Scandinavian,0,0,0,4,test
+284,/Dundee/6ROW Scandinavian/DHBT16P90 3.stl,Dundee,6,Scandinavian,0,0,0,4,test
+291,/Dundee/6ROW Scandinavian/DHBT16T106 1.stl,Dundee,6,Scandinavian,0,0,0,4,test
+273,/Dundee/6ROW Scandinavian/DHBT16P88 7.stl,Dundee,6,Scandinavian,0,0,0,4,test
+303,/Dundee/6ROW Scandinavian/DHBT16T106 2.stl,Dundee,6,Scandinavian,0,0,0,4,test
+391,/Orkney/2ROW British/OHBT16P25 2.stl,Orkney,2,British,0,0,0,0,train
+360,/Orkney/2ROW British/OHBT16P115 11L13.stl,Orkney,2,British,0,0,0,0,train
+374,/Orkney/2ROW British/OHBT16P25 4.stl,Orkney,2,British,0,0,0,0,train
+434,/Orkney/2ROW British/OHBT16P17 1.stl,Orkney,2,British,0,0,0,0,train
+411,/Orkney/2ROW British/OHBTP14 3.stl,Orkney,2,British,0,0,0,0,train
+431,/Orkney/2ROW British/OHBT16P115 1.stl,Orkney,2,British,0,0,0,0,train
+390,/Orkney/2ROW British/OHBT16P108 1.stl,Orkney,2,British,0,0,0,0,train
+406,/Orkney/2ROW British/OHBT16P21 6L8.stl,Orkney,2,British,0,0,0,0,train
+416,/Orkney/2ROW British/OHBT16P108 9.stl,Orkney,2,British,0,0,0,0,train
+433,/Orkney/2ROW British/OHBT16P20 6L14.stl,Orkney,2,British,0,0,0,0,train
+369,/Orkney/2ROW British/OHBT16P104 6.stl,Orkney,2,British,0,0,0,0,train
+419,/Orkney/2ROW British/OHBT16P108 4.stl,Orkney,2,British,0,0,0,0,train
+443,/Orkney/2ROW British/OHBT16P108 2.stl,Orkney,2,British,0,0,0,0,train
+386,/Orkney/2ROW British/OHBT16P49 1.stl,Orkney,2,British,0,0,0,0,train
+363,/Orkney/2ROW British/OHBT16P21 8L7.stl,Orkney,2,British,0,0,0,0,train
+367,/Orkney/2ROW British/OHBT16P17 8L11.stl,Orkney,2,British,0,0,0,0,train
+453,/Orkney/2ROW British/OHBT16P49 10L13.stl,Orkney,2,British,0,0,0,0,train
+418,/Orkney/2ROW British/OHBT16P30 6.stl,Orkney,2,British,0,0,0,0,train
+404,/Orkney/2ROW British/OHBT16P21 3.stl,Orkney,2,British,0,0,0,0,train
+377,/Orkney/2ROW British/OHBT16P20 10L11.stl,Orkney,2,British,0,0,0,0,train
+405,/Orkney/2ROW British/OHBTP14 1.stl,Orkney,2,British,0,0,0,0,train
+429,/Orkney/2ROW British/OHBT16P25 8L13.stl,Orkney,2,British,0,0,0,0,train
+384,/Orkney/2ROW British/OHBT16P104 7L10.stl,Orkney,2,British,0,0,0,0,train
+395,/Orkney/2ROW British/OHBT16P115 10L14.stl,Orkney,2,British,0,0,0,1,train
+351,/Orkney/2ROW British/OHBT16P20 4.stl,Orkney,2,British,0,0,0,1,train
+436,/Orkney/2ROW British/OHBT16P20 3.stl,Orkney,2,British,0,0,0,1,train
+375,/Orkney/2ROW British/OHBT16P30 9L6.stl,Orkney,2,British,0,0,0,1,train
+370,/Orkney/2ROW British/OHBT16P86 1.stl,Orkney,2,British,0,0,0,1,train
+356,/Orkney/2ROW British/OHBT16P30 2.stl,Orkney,2,British,0,0,0,1,train
+410,/Orkney/2ROW British/OHBT16P30 3.stl,Orkney,2,British,0,0,0,1,train
+425,/Orkney/2ROW British/OHBTP14 10L14.stl,Orkney,2,British,0,0,0,1,train
+393,/Orkney/2ROW British/OHBT16P49 9L13.stl,Orkney,2,British,0,0,0,1,train
+387,/Orkney/2ROW British/OHBT16P21 4.stl,Orkney,2,British,0,0,0,1,train
+382,/Orkney/2ROW British/OHBT16P86 6L13.stl,Orkney,2,British,0,0,0,1,train
+368,/Orkney/2ROW British/OHBT16P20 9L22.stl,Orkney,2,British,0,0,0,1,train
+397,/Orkney/2ROW British/OHBT16P104 2.stl,Orkney,2,British,0,0,0,1,train
+444,/Orkney/2ROW British/OHBT16P30 10L8.stl,Orkney,2,British,0,0,0,1,train
+442,/Orkney/2ROW British/OHBTP14 2.stl,Orkney,2,British,0,0,0,1,train
+349,/Orkney/2ROW British/OHBT16P25 5.stl,Orkney,2,British,0,0,0,1,train
+352,/Orkney/2ROW British/OHBT16P25 1.stl,Orkney,2,British,0,0,0,1,train
+396,/Orkney/2ROW British/OHBT16P104 1.stl,Orkney,2,British,0,0,0,1,train
+426,/Orkney/2ROW British/OHBT16P25 6L7.stl,Orkney,2,British,0,0,0,1,train
+400,/Orkney/2ROW British/OHBT16P86 4.stl,Orkney,2,British,0,0,0,1,train
+380,/Orkney/2ROW British/OHBT16P21 10L15.stl,Orkney,2,British,0,0,0,1,train
+373,/Orkney/2ROW British/OHBT16P108 10.stl,Orkney,2,British,0,0,0,1,train
+355,/Orkney/2ROW British/OHBT16P115 3.stl,Orkney,2,British,0,0,0,2,train
+408,/Orkney/2ROW British/OHBT16P25 10L20.stl,Orkney,2,British,0,0,0,2,train
+454,/Orkney/2ROW British/OHBT16P49 4.stl,Orkney,2,British,0,0,0,2,train
+435,/Orkney/2ROW British/OHBT16P104 8L15.stl,Orkney,2,British,0,0,0,2,train
+394,/Orkney/2ROW British/OHBT16P20 8L20.stl,Orkney,2,British,0,0,0,2,train
+366,/Orkney/2ROW British/OHBT16P49 3.stl,Orkney,2,British,0,0,0,2,train
+345,/Orkney/2ROW British/OHBT16P20 5.stl,Orkney,2,British,0,0,0,2,train
+347,/Orkney/2ROW British/OHBT16P115 8L13.stl,Orkney,2,British,0,0,0,2,train
+421,/Orkney/2ROW British/OHBT16P108 7.stl,Orkney,2,British,0,0,0,2,train
+398,/Orkney/2ROW British/OHBT16P30 5.stl,Orkney,2,British,0,0,0,2,train
+440,/Orkney/2ROW British/OHBT16P115 6L7.stl,Orkney,2,British,0,0,0,2,train
+450,/Orkney/2ROW British/OHBT16P17 9L13.stl,Orkney,2,British,0,0,0,2,train
+350,/Orkney/2ROW British/OHBT16P49 5.stl,Orkney,2,British,0,0,0,2,train
+348,/Orkney/2ROW British/OHBT16P49 8L10.stl,Orkney,2,British,0,0,0,2,train
+399,/Orkney/2ROW British/OHBT16P21 2.stl,Orkney,2,British,0,0,0,2,train
+446,/Orkney/2ROW British/OHBTP14 5.stl,Orkney,2,British,0,0,0,2,train
+402,/Orkney/2ROW British/OHBT16P104 5.stl,Orkney,2,British,0,0,0,2,train
+437,/Orkney/2ROW British/OHBTP14 9L12.stl,Orkney,2,British,0,0,0,2,train
+407,/Orkney/2ROW British/OHBT16P86 10L17.stl,Orkney,2,British,0,0,0,2,train
+439,/Orkney/2ROW British/OHBT16P25 3.stl,Orkney,2,British,0,0,0,2,train
+420,/Orkney/2ROW British/OHBT16P86 2.stl,Orkney,2,British,0,0,0,2,train
+449,/Orkney/2ROW British/OHBT16P86 5.stl,Orkney,2,British,0,0,0,2,train
+388,/Orkney/2ROW British/OHBT16P17 4.stl,Orkney,2,British,0,0,0,3,validation
+371,/Orkney/2ROW British/OHBT16P115 9L14.stl,Orkney,2,British,0,0,0,3,validation
+432,/Orkney/2ROW British/OHBT16P17 5.stl,Orkney,2,British,0,0,0,3,validation
+379,/Orkney/2ROW British/OHBT16P115 2.stl,Orkney,2,British,0,0,0,3,validation
+364,/Orkney/2ROW British/OHBT16P17 10L.stl,Orkney,2,British,0,0,0,3,validation
+445,/Orkney/2ROW British/OHBT16P30 8L11.stl,Orkney,2,British,0,0,0,3,validation
+422,/Orkney/2ROW British/OHBT16P108 3.stl,Orkney,2,British,0,0,0,3,validation
+359,/Orkney/2ROW British/OHBT16P108 8.stl,Orkney,2,British,0,0,0,3,validation
+438,/Orkney/2ROW British/OHBT16P17 2.stl,Orkney,2,British,0,0,0,3,validation
+362,/Orkney/2ROW British/OHBT16P30 11L12.stl,Orkney,2,British,0,0,0,3,validation
+358,/Orkney/2ROW British/OHBT16P20 1.stl,Orkney,2,British,0,0,0,3,validation
+428,/Orkney/2ROW British/OHBTP14 6L5.stl,Orkney,2,British,0,0,0,3,validation
+415,/Orkney/2ROW British/OHBT16P17 3.stl,Orkney,2,British,0,0,0,3,validation
+447,/Orkney/2ROW British/OHBT16P104 10L20.stl,Orkney,2,British,0,0,0,3,validation
+412,/Orkney/2ROW British/OHBT16P20 2.stl,Orkney,2,British,0,0,0,3,validation
+423,/Orkney/2ROW British/OHBT16P49 11L16.stl,Orkney,2,British,0,0,0,3,validation
+452,/Orkney/2ROW British/OHBT16P17 7L10.stl,Orkney,2,British,0,0,0,3,validation
+414,/Orkney/2ROW British/OHBT16P49 6L4.stl,Orkney,2,British,0,0,0,3,validation
+401,/Orkney/2ROW British/OHBTP14 4.stl,Orkney,2,British,0,0,0,3,validation
+365,/Orkney/2ROW British/OHBT16P21 9L13.stl,Orkney,2,British,0,0,0,3,validation
+381,/Orkney/2ROW British/OHBT16P86 8L15.stl,Orkney,2,British,0,0,0,3,validation
+392,/Orkney/2ROW British/OHBTP14 8L9.stl,Orkney,2,British,0,0,0,3,validation
+376,/Orkney/2ROW British/OHBT16P20 7L21.stl,Orkney,2,British,0,0,0,4,test
+353,/Orkney/2ROW British/OHBT16P30 1.stl,Orkney,2,British,0,0,0,4,test
+389,/Orkney/2ROW British/OHBT16P115 7L10.stl,Orkney,2,British,0,0,0,4,test
+455,/Orkney/2ROW British/OHBT16P108 6.stl,Orkney,2,British,0,0,0,4,test
+378,/Orkney/2ROW British/OHBT16P17 6L8.stl,Orkney,2,British,0,0,0,4,test
+409,/Orkney/2ROW British/OHBT16P86 3.stl,Orkney,2,British,0,0,0,4,test
+372,/Orkney/2ROW British/OHBT16P115 4.stl,Orkney,2,British,0,0,0,4,test
+413,/Orkney/2ROW British/OHBT16P115 5.stl,Orkney,2,British,0,0,0,4,test
+448,/Orkney/2ROW British/OHBT16P104 9L18.stl,Orkney,2,British,0,0,0,4,test
+357,/Orkney/2ROW British/OHBT16P86 7L12.stl,Orkney,2,British,0,0,0,4,test
+417,/Orkney/2ROW British/OHBT16P86 9L11.stl,Orkney,2,British,0,0,0,4,test
+424,/Orkney/2ROW British/OHBT16P25 9L15.stl,Orkney,2,British,0,0,0,4,test
+451,/Orkney/2ROW British/OHBT16P21 7L11.stl,Orkney,2,British,0,0,0,4,test
+346,/Orkney/2ROW British/OHBT16P108 5.stl,Orkney,2,British,0,0,0,4,test
+354,/Orkney/2ROW British/OHBT16P49 7L8.stl,Orkney,2,British,0,0,0,4,test
+441,/Orkney/2ROW British/OHBT16P25 7.stl,Orkney,2,British,0,0,0,4,test
+385,/Orkney/2ROW British/OHBT16P21 1.stl,Orkney,2,British,0,0,0,4,test
+403,/Orkney/2ROW British/OHBT16P104 3.stl,Orkney,2,British,0,0,0,4,test
+383,/Orkney/2ROW British/OHBT16P104 4.stl,Orkney,2,British,0,0,0,4,test
+427,/Orkney/2ROW British/OHBT16P30 7L9.stl,Orkney,2,British,0,0,0,4,test
+430,/Orkney/2ROW British/OHBT16P21 5.stl,Orkney,2,British,0,0,0,4,test
+361,/Orkney/2ROW British/OHBTP14 7L8.stl,Orkney,2,British,0,0,0,4,test
+492,/Orkney/2ROW Scottish/OHBT16P62 7L12.stl,Orkney,2,Scottish,0,0,0,0,train
+471,/Orkney/2ROW Scottish/OHBT16P62 18.stl,Orkney,2,Scottish,0,0,0,0,train
+486,/Orkney/2ROW Scottish/OHBT16P24 1.stl,Orkney,2,Scottish,0,0,0,0,train
+506,/Orkney/2ROW Scottish/OHBT16P24 10L20.stl,Orkney,2,Scottish,0,0,0,0,train
+470,/Orkney/2ROW Scottish/OHBT16P62 20.stl,Orkney,2,Scottish,0,0,0,0,train
+474,/Orkney/2ROW Scottish/OHBT16P6 17.stl,Orkney,2,Scottish,0,0,0,0,train
+508,/Orkney/2ROW Scottish/OHBT16P51 6L3.stl,Orkney,2,Scottish,0,0,0,0,train
+465,/Orkney/2ROW Scottish/OHBT16P6 11.stl,Orkney,2,Scottish,0,0,0,0,train
+461,/Orkney/2ROW Scottish/OHBT16P24 7L10.stl,Orkney,2,Scottish,0,0,0,0,train
+496,/Orkney/2ROW Scottish/OHBT16P62 4.stl,Orkney,2,Scottish,0,0,0,0,train
+525,/Orkney/2ROW Scottish/OHBT16P51 17.stl,Orkney,2,Scottish,0,0,0,0,train
+475,/Orkney/2ROW Scottish/OHBT16P24 21.stl,Orkney,2,Scottish,0,0,0,0,train
+464,/Orkney/2ROW Scottish/OHBT16P24 14.stl,Orkney,2,Scottish,0,0,0,0,train
+517,/Orkney/2ROW Scottish/OHBT16P62 8L14.stl,Orkney,2,Scottish,0,0,0,0,train
+526,/Orkney/2ROW Scottish/OHBT16P6 10L13.stl,Orkney,2,Scottish,0,0,0,0,train
+523,/Orkney/2ROW Scottish/OHBT16P24 12.stl,Orkney,2,Scottish,0,0,0,0,train
+487,/Orkney/2ROW Scottish/OHBT16P62 15.stl,Orkney,2,Scottish,0,0,0,1,train
+466,/Orkney/2ROW Scottish/OHBT16P62 2.stl,Orkney,2,Scottish,0,0,0,1,train
+502,/Orkney/2ROW Scottish/OHBT16P51 9L20.stl,Orkney,2,Scottish,0,0,0,1,train
+469,/Orkney/2ROW Scottish/OHBT16P62 12.stl,Orkney,2,Scottish,0,0,0,1,train
+503,/Orkney/2ROW Scottish/OHBT16P24 2.stl,Orkney,2,Scottish,0,0,0,1,train
+510,/Orkney/2ROW Scottish/OHBT16P6 14.stl,Orkney,2,Scottish,0,0,0,1,train
+482,/Orkney/2ROW Scottish/OHBT16P62 16.stl,Orkney,2,Scottish,0,0,0,1,train
+519,/Orkney/2ROW Scottish/OHBT16P51 7L12.stl,Orkney,2,Scottish,0,0,0,1,train
+524,/Orkney/2ROW Scottish/OHBT16P62 6L8.stl,Orkney,2,Scottish,0,0,0,1,train
+479,/Orkney/2ROW Scottish/OHBT16P62 14.stl,Orkney,2,Scottish,0,0,0,1,train
+521,/Orkney/2ROW Scottish/OHBT16P6 3.stl,Orkney,2,Scottish,0,0,0,1,train
+515,/Orkney/2ROW Scottish/OHBT16P24 6L7.stl,Orkney,2,Scottish,0,0,0,1,train
+518,/Orkney/2ROW Scottish/OHBT16P6 7L6.stl,Orkney,2,Scottish,0,0,0,1,train
+489,/Orkney/2ROW Scottish/OHBT16P6 16.stl,Orkney,2,Scottish,0,0,0,1,train
+456,/Orkney/2ROW Scottish/OHBT16P51 8L14.stl,Orkney,2,Scottish,0,0,0,1,train
+520,/Orkney/2ROW Scottish/OHBT16P6 13.stl,Orkney,2,Scottish,0,0,0,2,train
+527,/Orkney/2ROW Scottish/OHBT16P6 15.stl,Orkney,2,Scottish,0,0,0,2,train
+501,/Orkney/2ROW Scottish/OHBT16P62 9L14.stl,Orkney,2,Scottish,0,0,0,2,train
+468,/Orkney/2ROW Scottish/OHBT16P24 17.stl,Orkney,2,Scottish,0,0,0,2,train
+522,/Orkney/2ROW Scottish/OHBT16P51 12.stl,Orkney,2,Scottish,0,0,0,2,train
+531,/Orkney/2ROW Scottish/OHBT16P62 11L18.stl,Orkney,2,Scottish,0,0,0,2,train
+512,/Orkney/2ROW Scottish/OHBT16P51 4.stl,Orkney,2,Scottish,0,0,0,2,train
+513,/Orkney/2ROW Scottish/OHBT16P6 12.stl,Orkney,2,Scottish,0,0,0,2,train
+476,/Orkney/2ROW Scottish/OHBT16P6 18.stl,Orkney,2,Scottish,0,0,0,2,train
+528,/Orkney/2ROW Scottish/OHBT16P62 1.stl,Orkney,2,Scottish,0,0,0,2,train
+483,/Orkney/2ROW Scottish/OHBT16P62 10L17.stl,Orkney,2,Scottish,0,0,0,2,train
+494,/Orkney/2ROW Scottish/OHBT16P6 9L11.stl,Orkney,2,Scottish,0,0,0,2,train
+462,/Orkney/2ROW Scottish/OHBT16P6 4.stl,Orkney,2,Scottish,0,0,0,2,train
+458,/Orkney/2ROW Scottish/OHBT16P51 2.stl,Orkney,2,Scottish,0,0,0,2,train
+533,/Orkney/2ROW Scottish/OHBT16P6 19.stl,Orkney,2,Scottish,0,0,0,2,train
+493,/Orkney/2ROW Scottish/OHBT16P6 8L10.stl,Orkney,2,Scottish,0,0,0,3,validation
+467,/Orkney/2ROW Scottish/OHBT16P24 8L17.stl,Orkney,2,Scottish,0,0,0,3,validation
+472,/Orkney/2ROW Scottish/OHBT16P51 3.stl,Orkney,2,Scottish,0,0,0,3,validation
+463,/Orkney/2ROW Scottish/OHBT16P24 18.stl,Orkney,2,Scottish,0,0,0,3,validation
+457,/Orkney/2ROW Scottish/OHBT16P24 4.stl,Orkney,2,Scottish,0,0,0,3,validation
+477,/Orkney/2ROW Scottish/OHBT16P6 6L4.stl,Orkney,2,Scottish,0,0,0,3,validation
+490,/Orkney/2ROW Scottish/OHBT16P24 20.stl,Orkney,2,Scottish,0,0,0,3,validation
+509,/Orkney/2ROW Scottish/OHBT16P6 5.stl,Orkney,2,Scottish,0,0,0,3,validation
+499,/Orkney/2ROW Scottish/OHBT16P24 15.stl,Orkney,2,Scottish,0,0,0,3,validation
+529,/Orkney/2ROW Scottish/OHBT16P51 13.stl,Orkney,2,Scottish,0,0,0,3,validation
+488,/Orkney/2ROW Scottish/OHBT16P62 3.stl,Orkney,2,Scottish,0,0,0,3,validation
+497,/Orkney/2ROW Scottish/OHBT16P51 15.stl,Orkney,2,Scottish,0,0,0,3,validation
+478,/Orkney/2ROW Scottish/OHBT16P51 14.stl,Orkney,2,Scottish,0,0,0,3,validation
+473,/Orkney/2ROW Scottish/OHBT16P24 19.stl,Orkney,2,Scottish,0,0,0,3,validation
+505,/Orkney/2ROW Scottish/OHBT16P24 16.stl,Orkney,2,Scottish,0,0,0,3,validation
+532,/Orkney/2ROW Scottish/OHBT16P24 13.stl,Orkney,2,Scottish,0,0,0,4,test
+511,/Orkney/2ROW Scottish/OHBT16P62 5.stl,Orkney,2,Scottish,0,0,0,4,test
+491,/Orkney/2ROW Scottish/OHBT16P62 17.stl,Orkney,2,Scottish,0,0,0,4,test
+498,/Orkney/2ROW Scottish/OHBT16P6 1.stl,Orkney,2,Scottish,0,0,0,4,test
+507,/Orkney/2ROW Scottish/OHBT16P51 1.stl,Orkney,2,Scottish,0,0,0,4,test
+480,/Orkney/2ROW Scottish/OHBT16P62 19.stl,Orkney,2,Scottish,0,0,0,4,test
+459,/Orkney/2ROW Scottish/OHBT16P6 20.stl,Orkney,2,Scottish,0,0,0,4,test
+530,/Orkney/2ROW Scottish/OHBT16P51 16.stl,Orkney,2,Scottish,0,0,0,4,test
+485,/Orkney/2ROW Scottish/OHBT16P51 5.stl,Orkney,2,Scottish,0,0,0,4,test
+495,/Orkney/2ROW Scottish/OHBT16P24 9L18.stl,Orkney,2,Scottish,0,0,0,4,test
+500,/Orkney/2ROW Scottish/OHBT16P24 11.stl,Orkney,2,Scottish,0,0,0,4,test
+514,/Orkney/2ROW Scottish/OHBT16P51 10L13.stl,Orkney,2,Scottish,0,0,0,4,test
+481,/Orkney/2ROW Scottish/OHBT16P51 11.stl,Orkney,2,Scottish,0,0,0,4,test
+484,/Orkney/2ROW Scottish/OHBT16P62 13.stl,Orkney,2,Scottish,0,0,0,4,test
+516,/Orkney/2ROW Scottish/OHBT16P6 2.stl,Orkney,2,Scottish,0,0,0,4,test
+460,/Orkney/2ROW Scottish/OHBT16P24 3.stl,Orkney,2,Scottish,0,0,0,4,test
+504,/Orkney/2ROW Scottish/OHBT16P24 5.stl,Orkney,2,Scottish,0,0,0,4,test
+535,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 5.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+545,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 9.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+562,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 9.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+538,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 3.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+558,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 11.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+554,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 1.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+560,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 14.stl,Orkney,6,BERE Orkney,1,0,0,0,train
+536,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 7.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+556,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 8.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+542,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 15.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+537,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 13.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+549,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 4.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+550,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 7.stl,Orkney,6,BERE Orkney,1,0,0,1,train
+548,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 16.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+541,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 11.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+544,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 12.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+547,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 8.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+540,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 5.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+559,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 12.stl,Orkney,6,BERE Orkney,1,0,0,2,train
+561,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 2.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+534,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 10.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+551,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 15.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+563,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 6.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+543,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 2.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+552,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 4.stl,Orkney,6,BERE Orkney,1,0,0,3,validation
+553,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 6.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+539,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 13.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+557,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHB16P109 3.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+564,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 14.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+546,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 1.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+555,/Orkney/6ROW Bere/6ROW BERE ORKNEY/OHBT16P110 10.stl,Orkney,6,BERE Orkney,1,0,0,4,test
+570,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 1.stl,Orkney,6,BERE Unknown,1,0,1,0,train
+583,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 1.stl,Orkney,6,BERE Unknown,1,0,1,0,train
+567,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 2.stl,Orkney,6,BERE Unknown,1,0,1,0,train
+584,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 4.stl,Orkney,6,BERE Unknown,1,0,1,0,train
+576,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 3.stl,Orkney,6,BERE Unknown,1,0,1,0,train
+575,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 2.stl,Orkney,6,BERE Unknown,1,0,1,1,train
+573,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 3.stl,Orkney,6,BERE Unknown,1,0,1,1,train
+579,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 8.stl,Orkney,6,BERE Unknown,1,0,1,1,train
+568,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 5.stl,Orkney,6,BERE Unknown,1,0,1,1,train
+585,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 6.stl,Orkney,6,BERE Unknown,1,0,1,2,train
+581,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 9.stl,Orkney,6,BERE Unknown,1,0,1,2,train
+582,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 10.stl,Orkney,6,BERE Unknown,1,0,1,2,train
+577,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 11.stl,Orkney,6,BERE Unknown,1,0,1,2,train
+578,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 12.stl,Orkney,6,BERE Unknown,1,0,1,3,validation
+587,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 9.stl,Orkney,6,BERE Unknown,1,0,1,3,validation
+580,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 14.stl,Orkney,6,BERE Unknown,1,0,1,3,validation
+588,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 7.stl,Orkney,6,BERE Unknown,1,0,1,3,validation
+566,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 4.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+565,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 5.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+569,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 10.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+571,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 8.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+572,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 13.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+574,/Orkney/6ROW Bere/6ROW BERE Unknown/OHB16P96 6.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+586,/Orkney/6ROW Bere/6ROW BERE Unknown/OBT16P116 7.stl,Orkney,6,BERE Unknown,1,0,1,4,test
+597,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 14.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+628,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 15.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+589,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 17.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+598,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 3.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+591,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 1.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+590,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 7.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+621,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 8.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+609,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 15.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+611,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 3.stl,Orkney,6,BERE Western Isles,1,0,0,0,train
+624,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 1.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+623,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 6.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+601,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 8.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+620,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 16.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+607,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 6.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+625,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 4.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+594,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 10.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+615,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 13.stl,Orkney,6,BERE Western Isles,1,0,0,1,train
+613,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 1.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+602,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 10.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+617,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 2.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+612,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 11.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+627,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 4.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+599,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 2.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+608,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 5.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+606,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 16.stl,Orkney,6,BERE Western Isles,1,0,0,2,train
+605,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 3.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+610,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 6.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+619,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 5.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+614,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 9.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+593,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 11.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+626,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 7.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+596,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 12.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+604,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 14.stl,Orkney,6,BERE Western Isles,1,0,0,3,validation
+592,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 2.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+618,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 13.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+622,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 12.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+600,/Orkney/6ROW Bere/6ROW BERE Western Isles/OBT16P70 5.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+603,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P90 4.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+616,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 7.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+595,/Orkney/6ROW Bere/6ROW BERE Western Isles/OHB16P26 9.stl,Orkney,6,BERE Western Isles,1,0,0,4,test
+638,/Orkney/6ROW Scandinavian/OBT16P83 11.stl,Orkney,6,Scandinavian,0,0,0,0,train
+694,/Orkney/6ROW Scandinavian/OBT16P33 4.stl,Orkney,6,Scandinavian,0,0,0,0,train
+704,/Orkney/6ROW Scandinavian/OBT16P94 6.stl,Orkney,6,Scandinavian,0,0,0,0,train
+640,/Orkney/6ROW Scandinavian/OBT16P33 3.stl,Orkney,6,Scandinavian,0,0,0,0,train
+687,/Orkney/6ROW Scandinavian/OBT16P33 12.stl,Orkney,6,Scandinavian,0,0,0,0,train
+661,/Orkney/6ROW Scandinavian/OHB16P101 7.stl,Orkney,6,Scandinavian,0,0,0,0,train
+680,/Orkney/6ROW Scandinavian/OBT16P94 8.stl,Orkney,6,Scandinavian,0,0,0,0,train
+686,/Orkney/6ROW Scandinavian/OBT16P33 9.stl,Orkney,6,Scandinavian,0,0,0,0,train
+662,/Orkney/6ROW Scandinavian/OHBT16P37 16.stl,Orkney,6,Scandinavian,0,0,0,0,train
+645,/Orkney/6ROW Scandinavian/OBT16P83 13.stl,Orkney,6,Scandinavian,0,0,0,0,train
+649,/Orkney/6ROW Scandinavian/OBT16P94 7.stl,Orkney,6,Scandinavian,0,0,0,0,train
+636,/Orkney/6ROW Scandinavian/OHB16P101 8.stl,Orkney,6,Scandinavian,0,0,0,0,train
+644,/Orkney/6ROW Scandinavian/OBT16P33 11.stl,Orkney,6,Scandinavian,0,0,0,0,train
+635,/Orkney/6ROW Scandinavian/OHB16P101 2.stl,Orkney,6,Scandinavian,0,0,0,0,train
+689,/Orkney/6ROW Scandinavian/OHBT16P37 5.stl,Orkney,6,Scandinavian,0,0,0,0,train
+631,/Orkney/6ROW Scandinavian/OHBT16P37 7.stl,Orkney,6,Scandinavian,0,0,0,0,train
+647,/Orkney/6ROW Scandinavian/OBT16P94 9.stl,Orkney,6,Scandinavian,0,0,0,1,train
+670,/Orkney/6ROW Scandinavian/OHB16P101 6.stl,Orkney,6,Scandinavian,0,0,0,1,train
+674,/Orkney/6ROW Scandinavian/OBT16P33 1.stl,Orkney,6,Scandinavian,0,0,0,1,train
+668,/Orkney/6ROW Scandinavian/OHBT16P37 6.stl,Orkney,6,Scandinavian,0,0,0,1,train
+672,/Orkney/6ROW Scandinavian/OHBT16P37 17.stl,Orkney,6,Scandinavian,0,0,0,1,train
+633,/Orkney/6ROW Scandinavian/OHB16P101 9.stl,Orkney,6,Scandinavian,0,0,0,1,train
+664,/Orkney/6ROW Scandinavian/OHBT16P37 13.stl,Orkney,6,Scandinavian,0,0,0,1,train
+634,/Orkney/6ROW Scandinavian/OBT16P94 10.stl,Orkney,6,Scandinavian,0,0,0,1,train
+652,/Orkney/6ROW Scandinavian/OBT16P33 14.stl,Orkney,6,Scandinavian,0,0,0,1,train
+675,/Orkney/6ROW Scandinavian/OHBT16P37 9.stl,Orkney,6,Scandinavian,0,0,0,1,train
+654,/Orkney/6ROW Scandinavian/OHB16P101 1.stl,Orkney,6,Scandinavian,0,0,0,1,train
+657,/Orkney/6ROW Scandinavian/OHBT16P37 12.stl,Orkney,6,Scandinavian,0,0,0,1,train
+691,/Orkney/6ROW Scandinavian/OBT16P83 16.stl,Orkney,6,Scandinavian,0,0,0,1,train
+701,/Orkney/6ROW Scandinavian/OBT16P33 6.stl,Orkney,6,Scandinavian,0,0,0,1,train
+641,/Orkney/6ROW Scandinavian/OBT16P83 10.stl,Orkney,6,Scandinavian,0,0,0,1,train
+679,/Orkney/6ROW Scandinavian/OBT16P33 10.stl,Orkney,6,Scandinavian,0,0,0,2,train
+685,/Orkney/6ROW Scandinavian/OHBT16P37 14.stl,Orkney,6,Scandinavian,0,0,0,2,train
+695,/Orkney/6ROW Scandinavian/OBT16P83 6.stl,Orkney,6,Scandinavian,0,0,0,2,train
+700,/Orkney/6ROW Scandinavian/OBT16P83 12.stl,Orkney,6,Scandinavian,0,0,0,2,train
+692,/Orkney/6ROW Scandinavian/OHB16P101 3.stl,Orkney,6,Scandinavian,0,0,0,2,train
+660,/Orkney/6ROW Scandinavian/OHB16P101 13.stl,Orkney,6,Scandinavian,0,0,0,2,train
+643,/Orkney/6ROW Scandinavian/OHBT16P37 10.stl,Orkney,6,Scandinavian,0,0,0,2,train
+667,/Orkney/6ROW Scandinavian/OBT16P94 2.stl,Orkney,6,Scandinavian,0,0,0,2,train
+703,/Orkney/6ROW Scandinavian/OBT16P94 4.stl,Orkney,6,Scandinavian,0,0,0,2,train
+690,/Orkney/6ROW Scandinavian/OHBT16P37 8.stl,Orkney,6,Scandinavian,0,0,0,2,train
+684,/Orkney/6ROW Scandinavian/OHBT16P37 1.stl,Orkney,6,Scandinavian,0,0,0,2,train
+676,/Orkney/6ROW Scandinavian/OHB16P101 5.stl,Orkney,6,Scandinavian,0,0,0,2,train
+696,/Orkney/6ROW Scandinavian/OHBT16P37 2.stl,Orkney,6,Scandinavian,0,0,0,2,train
+651,/Orkney/6ROW Scandinavian/OBT16P94 13.stl,Orkney,6,Scandinavian,0,0,0,2,train
+629,/Orkney/6ROW Scandinavian/OBT16P33 5.stl,Orkney,6,Scandinavian,0,0,0,2,train
+706,/Orkney/6ROW Scandinavian/OBT16P83 9.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+683,/Orkney/6ROW Scandinavian/OBT16P83 3.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+665,/Orkney/6ROW Scandinavian/OBT16P94 1.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+677,/Orkney/6ROW Scandinavian/OBT16P94 14.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+630,/Orkney/6ROW Scandinavian/OHBT16P37 15.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+673,/Orkney/6ROW Scandinavian/OBT16P83 17.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+666,/Orkney/6ROW Scandinavian/OBT16P83 1.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+697,/Orkney/6ROW Scandinavian/OHB16P101 12.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+653,/Orkney/6ROW Scandinavian/OBT16P83 2.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+688,/Orkney/6ROW Scandinavian/OBT16P83 5.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+693,/Orkney/6ROW Scandinavian/OHB16P101 4.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+642,/Orkney/6ROW Scandinavian/OBT16P33 2.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+632,/Orkney/6ROW Scandinavian/OBT16P33 7.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+655,/Orkney/6ROW Scandinavian/OBT16P83 4.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+702,/Orkney/6ROW Scandinavian/OHBT16P37 19.stl,Orkney,6,Scandinavian,0,0,0,3,validation
+705,/Orkney/6ROW Scandinavian/OBT16P94 12.stl,Orkney,6,Scandinavian,0,0,0,4,test
+650,/Orkney/6ROW Scandinavian/OBT16P33 13.stl,Orkney,6,Scandinavian,0,0,0,4,test
+681,/Orkney/6ROW Scandinavian/OBT16P94 15.stl,Orkney,6,Scandinavian,0,0,0,4,test
+682,/Orkney/6ROW Scandinavian/OHBT16P37 18.stl,Orkney,6,Scandinavian,0,0,0,4,test
+637,/Orkney/6ROW Scandinavian/OBT16P94 11.stl,Orkney,6,Scandinavian,0,0,0,4,test
+656,/Orkney/6ROW Scandinavian/OBT16P83 7.stl,Orkney,6,Scandinavian,0,0,0,4,test
+699,/Orkney/6ROW Scandinavian/OBT16P83 14.stl,Orkney,6,Scandinavian,0,0,0,4,test
+678,/Orkney/6ROW Scandinavian/OHB16P101 11.stl,Orkney,6,Scandinavian,0,0,0,4,test
+658,/Orkney/6ROW Scandinavian/OHBT16P37 4.stl,Orkney,6,Scandinavian,0,0,0,4,test
+648,/Orkney/6ROW Scandinavian/OBT16P94 3.stl,Orkney,6,Scandinavian,0,0,0,4,test
+646,/Orkney/6ROW Scandinavian/OBT16P94 5.stl,Orkney,6,Scandinavian,0,0,0,4,test
+639,/Orkney/6ROW Scandinavian/OBT16P83 15.stl,Orkney,6,Scandinavian,0,0,0,4,test
+698,/Orkney/6ROW Scandinavian/OBT16P83 8.stl,Orkney,6,Scandinavian,0,0,0,4,test
+669,/Orkney/6ROW Scandinavian/OHBT16P37 11.stl,Orkney,6,Scandinavian,0,0,0,4,test
+671,/Orkney/6ROW Scandinavian/OHB16P101 10.stl,Orkney,6,Scandinavian,0,0,0,4,test
+663,/Orkney/6ROW Scandinavian/OHBT16P37 3.stl,Orkney,6,Scandinavian,0,0,0,4,test
+659,/Orkney/6ROW Scandinavian/OBT16P33 8.stl,Orkney,6,Scandinavian,0,0,0,4,test

@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import meshcut as mc
 
 
 def section(mesh, origin_plane, normal_plane):

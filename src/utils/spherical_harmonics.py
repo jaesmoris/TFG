@@ -180,11 +180,23 @@ def compute_coefficients_from_mesh(mesh, max_l = 30, shape = (201, 201)):
     coefs = spherical_coefficients(max_l, phi_grid, theta_grid, r_grid)
     return coefs
 
-def spherical_harmonics_coefficients_dataset(folder_path, destination_path, max_l = 30, shape = (201, 201)):
-    print(f"Entrando en la carpeta {folder_path}")
-    paths = os.listdir(folder_path)
+def compute_coefficients_from_mesh2(mesh, max_l = 30, shape = (201, 201)):
+    x = mesh.vertices[:, 0]
+    y = mesh.vertices[:, 1]
+    z = mesh.vertices[:, 2]
+    
+    r, phi, theta = spherical_coordinates_2(x, y, z)
+    r_grid, phi_grid, theta_grid = compute_grids(r, phi, theta, shape = shape)
+
+    coefs = spherical_coefficients(max_l, phi_grid, theta_grid, r_grid)
+    return coefs
+
+def spherical_harmonics_coefficients_dataset(dataset_path, destination_path, max_l = 30, shape = (201, 201)):
+    print(f"Entrando en la carpeta {dataset_path}")
+    paths = os.listdir(dataset_path)
+    paths.sort()
     for path in paths:
-        import_path = folder_path + "/" + path
+        import_path = dataset_path + "/" + path
         export_path = destination_path + "/" + path
         # Load, compute and export
         if path[-4:] == ".stl":
@@ -193,7 +205,89 @@ def spherical_harmonics_coefficients_dataset(folder_path, destination_path, max_
                 coefficients = compute_coefficients_from_mesh(mesh, max_l = max_l, shape = (201, 201))
                 os.makedirs(destination_path, exist_ok=True)
                 with open(export_path + ".pkl", "wb") as archivo:
-                    pickle.dump([coefficients], archivo)
+                    pickle.dump(coefficients, archivo)
         # Recursion over directories
         elif os.path.isdir(import_path):
             spherical_harmonics_coefficients_dataset(import_path, export_path, max_l = max_l, shape = shape)
+
+def spherical_harmonics_coefficients_dataset2(dataset_path, destination_path, max_l = 30, shape = (201, 201)):
+    print(f"Entrando en la carpeta {dataset_path}")
+    paths = os.listdir(dataset_path)
+    paths.sort()
+    for path in paths:
+        import_path = dataset_path + "/" + path
+        export_path = destination_path + "/" + path
+        # Load, compute and export
+        if path[-4:] == ".stl":
+            if not os.path.exists(export_path + ".pkl"):
+                mesh = trimesh.load(import_path)
+                coefficients = compute_coefficients_from_mesh2(mesh, max_l = max_l, shape = (201, 201))
+                os.makedirs(destination_path, exist_ok=True)
+                with open(export_path + ".pkl", "wb") as archivo:
+                    pickle.dump(coefficients, archivo)
+        # Recursion over directories
+        elif os.path.isdir(import_path):
+            spherical_harmonics_coefficients_dataset2(import_path, export_path, max_l = max_l, shape = shape)
+
+def tesselation_into_grain(tesselation_mesh, phi, theta, coefficients):
+    r_new = np.zeros(tesselation_mesh.vertices.shape[0])
+    max_l = int(np.rint(np.sqrt(len(coefficients))))
+    print(f"max_l = {max_l}")
+    i = 0
+    for l in range(max_l):
+        for m in range(-l, l + 1):
+            if not np.isnan(coefficients[i]):
+                r_new += coefficients[i] * real_spherical_harmonic(m, l, phi, theta)
+            i += 1
+            
+    xx, yy, zz = cartesian_coordinates_3d(r_new, phi, theta)
+    tesselation_mesh.vertices = np.column_stack((xx, yy, zz))
+    return tesselation_mesh
+
+def tesselation_into_grain2(tesselation_mesh, phi, theta, coefficients):
+    r_new = np.zeros(tesselation_mesh.vertices.shape[0])
+    max_l = int(np.rint(np.sqrt(len(coefficients))))
+    i = 0
+    for l in range(max_l):
+        for m in range(-l, l + 1):
+            if not np.isnan(coefficients[i]):
+                r_new += coefficients[i] * real_spherical_harmonic(m, l, phi, theta)
+            i += 1
+            
+    xx, yy, zz = cartesian_coordinates_3d_2(r_new, phi, theta)
+    tesselation_mesh.vertices = np.column_stack((xx, yy, zz))
+    return tesselation_mesh
+
+def tesselation_into_dataset(dataset_path, destination_path, tesselation_path):
+    print(f"Entrando en la carpeta {dataset_path}")
+    paths = os.listdir(dataset_path)
+    paths.sort()
+    
+    tesselation_mesh = trimesh.load(tesselation_path)
+    # Recontruct the grain over the spherical tesselation
+    x = tesselation_mesh.vertices[:, 0]
+    y = tesselation_mesh.vertices[:, 1]
+    z = tesselation_mesh.vertices[:, 2]
+
+    r, phi, theta = spherical_coordinates(x, y, z)
+    
+    
+    for path in paths:
+        import_path = dataset_path + "/" + path
+        export_path = destination_path + "/" + path
+
+        # Recursion over directories
+        if os.path.isdir(import_path):
+            tesselation_into_dataset(import_path, export_path, tesselation_path)
+
+        # Load, compute and export
+        elif not os.path.exists(export_path[:-4]):
+            os.makedirs(destination_path, exist_ok=True)
+            with open(import_path, 'rb') as archivo:
+                coefficients = pickle.load(archivo)
+                #coefficients = coefficients[0]
+            
+            mesh = tesselation_into_grain(tesselation_mesh, phi, theta, coefficients)
+            mesh.export(export_path[:-4])
+
+    

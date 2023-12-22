@@ -5,7 +5,7 @@ import numpy as np
 import pyrender
 import trimesh
 from sklearn.decomposition import PCA
-import meshcut as mc
+#import meshcut as mc
 import matplotlib.pyplot as plt
 from .slices import xsection, ysection, zsection
 from .figuras_predefinidas import create_axis, render_axis
