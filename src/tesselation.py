@@ -164,19 +164,23 @@ faces_icosahedron = np.array([
     [7, 11, 2]
 ])
 
+# DEPTH:
+# 4 --> V=2562      C=5120      <1MB
+# 5 --> V=10242     C=20480     1MB
+# 6 --> V=40962     C=81920     4MB
+# 7 --> V=163842    C=327680    16MB
+
 ######################## HEXAHEDRON ########################
-#       0--------1
-#      /|       /|
-#     / |      / |
-#    /  |     /  |
-#   3---|----2   |
-#   |   4----|---5
-#   |  /     |  /
-#   | /      | /
-#   |/       |/
+#       0--------1      
+#      /        /|          4---5
+#     /        / |          | D |
+#    /        /  |      4---0---1---5---4
+#   3--------2   |      | C | A | E | F |
+#   |   4    |   5      7---3---2---6---7
+#   |        |  /           | B |
+#   |        | /            7---6
+#   |        |/
 #   7--------6
-
-
 
 sq = 1.0/np.sqrt(3)
 vertices_hexahedron = np.array([
@@ -198,24 +202,17 @@ faces_hexahedron = np.array([
 
 dict_indices = {}
 
-########################################
-# DEPTH:
-# 4 --> V=2562      C=5120      <1MB
-# 5 --> V=10242     C=20480     1MB
-# 6 --> V=40962     C=81920     4MB
-# 7 --> V=163842    C=327680    16MB
-########################################
 
 faces = faces_hexahedron
 vertices = vertices_hexahedron
 
-depth = 1
+depth = 5
 for i in range(depth):
     faces, vertices = split_square_fractal(faces, vertices, dict_indices)
 
 t_faces = split_square_into_triangles(faces, vertices, dict_indices)
 t_faces = fix_faces(t_faces, vertices)
-print(t_faces)
 # mesh objects can be created from existing faces and vertex data
 mesh = trimesh.Trimesh(vertices=vertices, faces=t_faces)
 mesh.export(f"/home/msiau/data/tmp/jesmoris/tesselations/hexahedron{depth}.stl")
+

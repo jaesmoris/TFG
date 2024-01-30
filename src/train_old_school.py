@@ -13,18 +13,16 @@ from custom_dataset import CustomDatasetFromPickle
 from NN_architectures.old_school import GrainClassifierOldSchool
 from utils.classification import *
 
-# Load dataset
-dataset_path = "/home/msiau/data/tmp/jesmoris/old_school"
-dataset = CustomDatasetFromPickle(dataset_path)
-adjust_labels(dataset, list_landraces)
-n_classes = len(np.unique(dataset.labels))
+save_path = "/home/msiau/workspace/asdf/models/saved/old_school/Landraces3"
+log_path = "/home/msiau/workspace/asdf/src/logs/train/old_school/Landraces3.csv"
 
-# Train/test split
-train_size = 0.7
-train_dataset, test_dataset = stratified_random_split_train_test(dataset, train_size)
+# Load dataset
+dataset_path = "/home/msiau/data/tmp/jesmoris/Oriented_Divided_old_school/Landraces"
+train_dataset, validation_dataset, test_dataset = train_val_test_split(dataset_path)
+n_classes = len(np.unique(train_dataset.labels))
 
 # DataLoaders
-batch_size = 16
+batch_size = 4
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=False)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
@@ -63,7 +61,6 @@ def train_one_epoch(dataloader):
     #print("Total loss: ", running_loss)
     return running_loss
 
-
 def test_model(dataloader):
     total_loss = 0.0
     correct = 0
@@ -84,20 +81,12 @@ def test_model(dataloader):
         
     return total_loss, accuracy
 
-
-#save_path = "/home/msiau/workspace/asdf/models/saved/old_school/2row_6row"
-#log_path = "/home/msiau/workspace/asdf/src/logs/train/old_school/2row_6row.csv"
-#save_path = "/home/msiau/workspace/asdf/models/saved/old_school/Dundee_Orkney"
-#log_path = "/home/msiau/workspace/asdf/src/logs/train/old_school/Dundee_Orkney.csv"
-save_path = "/home/msiau/workspace/asdf/models/saved/old_school/Landrace"
-log_path = "/home/msiau/workspace/asdf/src/logs/train/old_school/Landrace.csv"
-
 with open(log_path, 'w') as file:
     file.write("Epoch,train_loss,test_loss,accuracy\n")
 
 max_accuracy = 0
 i_max_accuracy = 0
-for i in range(2000):
+for i in range(10000):
     train_loss = train_one_epoch(train_loader)
     test_loss, accuracy = test_model(test_loader)
     if max_accuracy < accuracy:
@@ -114,8 +103,8 @@ for i in range(2000):
 log_string(log_path, f"\n\nMaximum Accuracy: {max_accuracy} in epoch {i_max_accuracy}\n")
 log_string(log_path, "\nParameters:\n")
 log_string(log_path, f"- Batch size = {batch_size}\n")
-log_string(log_path, f"- Train size = {len(train_dataset)}, {round(train_size*100)}%\n")
-log_string(log_path, f"- Test size = {len(test_dataset)}, {round(100* (1-train_size))}%\n")
+log_string(log_path, f"- Train size = {len(train_dataset)}\n")
+log_string(log_path, f"- Test size = {len(test_dataset)}\n")
 log_string(log_path, f"- Learning rate = {learning_rate}\n")
 log_string(log_path, f"- Momentum = {momentum}\n")
 

@@ -269,13 +269,14 @@ def tesselation_into_dataset(dataset_path, destination_path, tesselation_path):
     y = tesselation_mesh.vertices[:, 1]
     z = tesselation_mesh.vertices[:, 2]
 
-    r, phi, theta = spherical_coordinates(x, y, z)
+    r, phi, theta = spherical_coordinates_2(x, y, z)
     
     
     for path in paths:
         import_path = dataset_path + "/" + path
         export_path = destination_path + "/" + path
-
+        print(path)
+        
         # Recursion over directories
         if os.path.isdir(import_path):
             tesselation_into_dataset(import_path, export_path, tesselation_path)
@@ -283,11 +284,12 @@ def tesselation_into_dataset(dataset_path, destination_path, tesselation_path):
         # Load, compute and export
         elif not os.path.exists(export_path[:-4]):
             os.makedirs(destination_path, exist_ok=True)
+            
             with open(import_path, 'rb') as archivo:
                 coefficients = pickle.load(archivo)
                 #coefficients = coefficients[0]
             
-            mesh = tesselation_into_grain(tesselation_mesh, phi, theta, coefficients)
+            mesh = tesselation_into_grain2(tesselation_mesh, phi, theta, coefficients)
             mesh.export(export_path[:-4])
 
     

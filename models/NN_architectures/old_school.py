@@ -3,7 +3,7 @@ import torch
 from torch import nn
 
 class GrainClassifierOldSchool(nn.Module):
-    def __init__(self, n_labels):
+    def __init__(self, n_classes):
         super().__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
@@ -22,7 +22,7 @@ class GrainClassifierOldSchool(nn.Module):
             nn.Linear(512, 512, dtype=torch.double),
             nn.ReLU()
         )
-        self.classification_layer = nn.Linear(512, n_labels, dtype=torch.double)
+        self.classification_layer = nn.Linear(512, n_classes, dtype=torch.double)
         
     def forward(self, x):
         x = self.flatten(x)

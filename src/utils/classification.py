@@ -1,6 +1,9 @@
 from sklearn.model_selection import StratifiedShuffleSplit
-from custom_dataset import CustomDatasetFromArray
+from custom_dataset import CustomDatasetFromArray, CustomDatasetFromFold
 import config
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.signal import convolve
 
 ########### LABEL ADJUSTMENTS ###########
 # 2ROW / 6ROW adjustment
@@ -95,9 +98,39 @@ def train_test_split_from_indices(dataset, train_indices, test_indices):
     test_dataset = CustomDatasetFromArray(data[test_index], labels[test_index])
     return train_dataset, test_dataset
 
+def train_val_test_split(dataset_path):
+    #dataset/class/fold
+    train_dataset = CustomDatasetFromFold(dataset_path, "train")
+    validation_dataset = CustomDatasetFromFold(dataset_path, "val")
+    test_dataset = CustomDatasetFromFold(dataset_path, "test")
+    return train_dataset, validation_dataset, test_dataset
 
 def log_string(log_path : str, s : str):
     with open(log_path, 'a') as file:
         file.write(s)
         
+def plot_accuracy_epoch(accuracy_per_epoch, save_path=None, kernel_len=5):
+    kernel = np.ones(kernel_len) / kernel_len
+    epochs = np.arange(1, len(accuracy_per_epoch) + 1)
+    
+    # Trazar el gráfico de accuracy por época
+    plt.figure(figsize=(10, 6))
+    plt.plot(epochs, accuracy_per_epoch, marker='o', linestyle='-')
+    plt.title('Accuracy por Época')
+    plt.xlabel('Época')
+    plt.ylabel('Accuracy')
+    
+    # Calcular la tendencia (trendline) mediante convolución
+    trend = convolve(accuracy_per_epoch, kernel, mode='same')
+    trend[:kernel_len//2] = accuracy_per_epoch[:kernel_len//2]
+    trend[-kernel_len//2:] = accuracy_per_epoch[-kernel_len//2:]
+    plt.plot(epochs, trend, "r--", label="Tendencia")
+    
+    plt.legend()
+    plt.grid(True)
+    
+    if save_path:
+        plt.savefig(save_path)
+    else:
+        plt.show()
     

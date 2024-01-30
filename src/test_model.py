@@ -9,40 +9,34 @@ import torch
 import numpy as np
 from torch import nn
 
-from custom_dataset import CustomDatasetFromPickle
+from custom_dataset import *
 from NN_architectures.old_school import GrainClassifierOldSchool
 from NN_architectures.sh import GrainClassifierSH
 from utils.classification import *
+from NAG import get_test_meshes_pkl
 
-#dataset_path = "/home/msiau/data/tmp/jesmoris/spherical_coefficients_L50"
-dataset_path = "/home/msiau/data/tmp/jesmoris/old_school"
-#model_path = "/home/msiau/workspace/asdf/models/saved/old_school/2row_6row"
-#model_path = "/home/msiau/workspace/asdf/models/saved/old_school/Dundee_Orkney"
-#model_path = "/home/msiau/workspace/asdf/models/saved/old_school/Landrace"
-#model_path = "/home/msiau/workspace/asdf/models/saved/sh/2row_6row_L50"
-#model_path = "/home/msiau/workspace/asdf/models/saved/sh/dundee_orkney_L50"
-model_path = "/home/msiau/workspace/asdf/models/saved/sh/landraces_L50"
-
+pretreatment = "sh"
+experiment = "Bere"
+idd = "10"
+model_path = f"/home/msiau/workspace/asdf/models/saved/{pretreatment}/{experiment}{idd}"
 
 # Load dataset
-dataset = CustomDatasetFromPickle(dataset_path)
+#dataset_path = f"/home/msiau/data/tmp/jesmoris/Oriented_Divided_old_school/{experiment}"
+dataset_path = f"/home/msiau/data/tmp/jesmoris/Oriented_Divided_SH_L50_xyz/{experiment}"
+test_array, labels, classes = get_test_meshes_pkl(dataset_path)
 
-#adjust_labels(dataset, list_2row_6row)
-#adjust_labels(dataset, list_dundee_orkney)
-adjust_labels(dataset, list_landraces)
+test_dataset = CustomDatasetFromArray(test_array, labels)
+n_classes = len(np.unique(test_dataset.labels))
+l_max = 50
 
-train_dataset, test_dataset = stratified_random_split_train_test(dataset, train_size=0.7)
-
-n_classes = len(np.unique(dataset.labels))
-print(f"nclasses = {n_classes}")
-
-# Data Loader
+# DataLoaders
 batch_size = 1
-dataset_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+#train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-# Load model
-#model = GrainClassifierSH(l_max = 50, n_classes=n_classes)
-#model = GrainClassifierOldSchool(n_classes)
+GrainClassifierOldSchool
+#model = GrainClassifierOldSchool(n_classes = n_classes)
+model = GrainClassifierSH(l_max = l_max, n_classes = n_classes)
 model.load_state_dict(torch.load(model_path))
 model.eval()
 
@@ -68,4 +62,6 @@ def confusion_matrix(dataloader, model_nn, n):
     print("\nAccuracy:")
     print(acc)
 
-confusion_matrix(dataset_loader, model, n_classes)
+confusion_matrix(test_loader, model, n_classes)
+for i, cl in enumerate(classes):
+    print(f"{i}. {cl}")

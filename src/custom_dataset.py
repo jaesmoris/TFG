@@ -47,9 +47,35 @@ class CustomDatasetFromArray(Dataset):
     def __getitem__(self, index):
         return self.data[index], self.labels[index]
 
-'''path = "/home/msiau/data/tmp/jesmoris/spherical_coefficients_L30"
-cdfp = CustomDatasetFromPickle(path)
-cdfa = CustomDatasetFromArray(cdfp.data, cdfp.labels)
+class CustomDatasetFromFold(Dataset):
+    def __init__(self, data_dir, fold):
+        self.data_dir = data_dir
+        # Listing classes
+        self.classes = os.listdir(data_dir)
+        self.classes.sort()
+        self.data = []
+        self.labels = []
+        
+        # dataset/class/fold
+        # For every directory matching "fold"
+        for class_index, class_path in enumerate(self.classes):
+            in_class_paths = os.listdir(data_dir + "/" + class_path + "/" + fold)
+            in_class_paths.sort()
+            # For every file in the class directory
+            for path in in_class_paths:
+                pkl_path = data_dir + "/" + class_path + "/" + fold + "/" + path
+                with open(pkl_path, 'rb') as pkl_file:
+                    pkl_object = pickle.load(pkl_file)
+                self.data.append(pkl_object)
+                self.labels.append(class_index)
 
-stratified_random_split_train_test(cdfa, 0.8)
-#stratified_random_split(cdfa, 0.8, 3)'''
+        self.data = torch.tensor(self.data)
+        self.labels = torch.tensor(self.labels)
+        print(f"Dataset imported successfully! Classes: {len(self.classes)}, Samples: {self.data.shape[0]}, Sample length: {self.data.shape[1]}.")
+        
+    def __len__(self):
+        return len(self.labels)
+
+    def __getitem__(self, index):
+        return self.data[index], self.labels[index]
+

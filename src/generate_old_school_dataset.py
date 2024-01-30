@@ -25,7 +25,7 @@ def generate_old_school_dataset(dataset_path, destination_path):
             generate_old_school_dataset(import_path, export_path)
 
 
-dataset_path = "/home/msiau/data/tmp/jesmoris/Oriented_grains"
-export_path = "/home/msiau/data/tmp/jesmoris/old_school"
+dataset_path = "/home/msiau/data/tmp/jesmoris/Oriented_Divided"
+export_path = "/home/msiau/data/tmp/jesmoris/Oriented_Divided_old_school"
 
 generate_old_school_dataset(dataset_path, export_path)
