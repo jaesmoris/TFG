@@ -7,8 +7,8 @@ import trimesh
 from sklearn.decomposition import PCA
 #import meshcut as mc
 import matplotlib.pyplot as plt
-from .slices import xsection, ysection, zsection
-from .figuras_predefinidas import create_axis, render_axis
+from slices import xsection, ysection, zsection
+from figuras_predefinidas import create_axis, render_axis
 
 
 def rodrigues_rotation_matrix(omega, theta):
@@ -283,21 +283,9 @@ def custom_scene(render_mesh, camera_eye, camera_target, camera_up, axis_flag=Fa
         scene.add(render_meshz)
 
     scene.add(render_mesh)
-
-    # CAMERA
-    #camera_eye = np.array([4,4,4], dtype=np.float64)
-    #camera_target = np.array([0,0,0], dtype=np.float64)
-    #camera_up = np.array([0,1,0], dtype=np.float64)
     camera_pose = lookAt(camera_eye, camera_target, camera_up, yz_flip=False)
-
     camera = pyrender.PerspectiveCamera(yfov=np.pi / 3.0)
     scene.add(camera, pose=camera_pose)
-
-    '''# LIGHT
-    eye = np.array([-5,0,0], dtype=np.float64)
-    target = np.array([0,0,0], dtype=np.float64)
-    up = np.array([0,1,0], dtype=np.float64)
-    light_pose = lookAt(eye, target, up, yz_flip=False)'''
 
     light = pyrender.PointLight(intensity=50.0)
     scene.add(light, pose=camera_pose)
