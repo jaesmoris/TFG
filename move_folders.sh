@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dataset_path="/home/msiau/data/tmp/jesmoris/OrientedMatched_5K_L50_MOVE"
-new_dataset_path="/home/msiau/data/tmp/jesmoris/OrientedMatched_5K_L50"
+dataset_path="/home/msiau/data/tmp/jesmoris/spherical_coefficients_L50"
+new_dataset_path="/home/msiau/data/tmp/jesmoris/spherical_coefficients_L50_dw"
 
 rm -r -f $new_dataset_path
 mkdir $new_dataset_path

@@ -16,7 +16,7 @@ from utils.classification import *
 from NAG import get_test_meshes_pkl
 
 pretreatment = "sh"
-experiment = "Bere"
+experiment = "Rows"
 idd = "10"
 model_path = f"/home/msiau/workspace/asdf/models/saved/{pretreatment}/{experiment}{idd}"
 
