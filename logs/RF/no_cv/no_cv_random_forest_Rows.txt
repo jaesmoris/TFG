@@ -1,0 +1,33 @@
+MULTILAYER PERCEPTRON: Rows
+
+DATA:
+
+Train:	408 samples.
+Val:	136 samples.
+Test:	136 samples.
+Merged train:	544 samples.
+
+RESULTS:
+
+Test Accuracy: 0.8970588235294118
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        2ROW       0.90      0.90      0.90        68
+        6ROW       0.90      0.90      0.90        68
+
+    accuracy                           0.90       136
+   macro avg       0.90      0.90      0.90       136
+weighted avg       0.90      0.90      0.90       136
+
+Confusion matrix:
+[[61  7]
+ [ 7 61]]
+
+Grid of parameters:
+{'n_estimators': [100, 200, 300], 'max_features': ['sqrt', 'log2'], 'max_depth': [None, 10, 20, 30], 'min_samples_split': [2, 5, 10], 'min_samples_leaf': [1, 2, 4]}
+Best parameters:
+{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+
+Random state: 42.
+Running time: 1007.52 seconds.

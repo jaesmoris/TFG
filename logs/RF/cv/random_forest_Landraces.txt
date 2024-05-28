@@ -1,0 +1,40 @@
+RANDOM FOREST: Landraces
+
+DATA:
+
+Train:	300 samples.
+Val:	100 samples.
+Test:	100 samples.
+
+Train and validation merged to use cross validation.
+Merged train:	400 samples.
+
+RESULTS:
+
+Test Accuracy: 0.75
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        Bere       0.91      0.84      0.87        25
+     British       0.67      0.80      0.73        25
+Scandinavian       0.76      0.76      0.76        25
+    Scottish       0.68      0.60      0.64        25
+
+    accuracy                           0.75       100
+   macro avg       0.76      0.75      0.75       100
+weighted avg       0.76      0.75      0.75       100
+
+Confusion matrix:
+[[21  2  1  1]
+ [ 0 20  2  3]
+ [ 2  1 19  3]
+ [ 0  7  3 15]]
+
+Grid of parameters:
+{'n_estimators': [100, 200, 300], 'max_features': ['sqrt', 'log2'], 'max_depth': [None, 10, 20, 30], 'min_samples_split': [2, 5, 10], 'min_samples_leaf': [1, 2, 4]}
+Best parameters:
+{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 300}
+
+Random state: 42.
+Used 4 folds in Cross Validation.
+Running time: 2548.35 seconds.
