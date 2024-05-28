@@ -4,7 +4,6 @@ import trimesh
 from utils.slices import *
 from utils.orientaciones import *
 
-
 def generate_old_school_dataset(dataset_path, destination_path):
     print(f"Entrando en la carpeta {dataset_path}")
     paths = os.listdir(dataset_path)
