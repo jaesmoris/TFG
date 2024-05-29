@@ -1,11 +1,11 @@
-MULTILAYER PERCEPTRON: Rows
+RANDOM FOREST without cross validation: Rows
 
 DATA:
 
 Train:	408 samples.
 Val:	136 samples.
 Test:	136 samples.
-Merged train:	544 samples.
+
 
 RESULTS:
 

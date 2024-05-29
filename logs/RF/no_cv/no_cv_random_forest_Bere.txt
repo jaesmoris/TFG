@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Bere
+RANDOM FOREST without cross validation: Bere
 
 DATA:
 
@@ -6,8 +6,6 @@ Train:	210 samples.
 Val:	70 samples.
 Test:	70 samples.
 
-Train and validation merged to use cross validation.
-Merged train:	280 samples.
 
 RESULTS:
 

@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Landraces
+RANDOM FOREST without cross validation: Landraces
 
 DATA:
 
@@ -6,8 +6,6 @@ Train:	300 samples.
 Val:	100 samples.
 Test:	100 samples.
 
-Train and validation merged to use cross validation.
-Merged train:	400 samples.
 
 RESULTS:
 

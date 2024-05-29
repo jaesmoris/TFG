@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Origins
+RANDOM FOREST without cross validation: Origins
 
 DATA:
 
@@ -6,8 +6,6 @@ Train:	402 samples.
 Val:	134 samples.
 Test:	134 samples.
 
-Train and validation merged to use cross validation.
-Merged train:	536 samples.
 
 RESULTS:
 

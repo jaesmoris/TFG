@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Landraces
+RANDOM FOREST with custom cross validation: Landraces
 
 DATA:
 

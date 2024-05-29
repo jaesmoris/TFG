@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Rows
+RANDOM FOREST with custom cross validation: Rows
 
 DATA:
 

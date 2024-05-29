@@ -1,4 +1,4 @@
-MULTILAYER PERCEPTRON: Origins
+RANDOM FOREST with custom cross validation: Origins
 
 DATA:
 

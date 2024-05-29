@@ -31,7 +31,7 @@ def load_dataset_by_folds(dataset_path):
 def log_file_begin(log_path, experiment_name=""):
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     with open(log_path, 'w') as file:
-        file.write(f"MULTILAYER PERCEPTRON: {experiment_name}\n\n")
+        file.write(f"RANDOM FOREST with custom cross validation: {experiment_name}\n\n")
 
 def log_file_string(log_path, string):
     with open(log_path, 'a') as file:
