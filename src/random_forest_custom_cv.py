@@ -38,10 +38,10 @@ def log_file_string(log_path, string):
         file.write(string)
 
 random_state = 42
-experiments = ["Bere", "Landraces", "Origins", "Rows"]
+experiments = ["Landraces", "Bere", "Origins", "Rows"]
 for experiment in experiments:
     # dataset_path = f"../../data/Oriented_Divided_SH_L50/{experiment}" # local
-    dataset_path = f"" # CVC server
+    dataset_path = f"/home/msiau/data/tmp/jesmoris/Oriented_Divided_SH_L50/{experiment}" # CVC server
     log_path = f"../logs/RF/custom_cv/custom_cv_random_forest_{experiment}.txt"
     save_model_path = f"../models/RF/custom_cv/custom_cv_best_random_forest_model_{experiment}.pkl"
     
@@ -54,7 +54,7 @@ for experiment in experiments:
     # Train/val 
     x = data_folds[0]  + data_folds[1]  + data_folds[2] + data_folds[2]
     y = label_folds[0] + label_folds[1] + label_folds[2] + label_folds[3]
-    log_file_string(log_path, f"{len(data_folds)} folds of {len(data_folds[0])} samples to cross validate, Total:\t{len(x)} samples.\n")
+    log_file_string(log_path, f"{len(data_folds)-1} folds of {len(data_folds[0])} samples to cross validate, Total:\t{len(x)} samples.\n")
     # Test
     x_test = data_folds[4]
     y_test = label_folds[4]
@@ -70,16 +70,15 @@ for experiment in experiments:
     param_grid = {
     'n_estimators': [100, 200, 300, 400, 500],
     'max_features': ['sqrt', 'log2', 0.5],
-    'max_depth': [None, 10, 15, 20, 25, 30],
-    'min_samples_split': [2, 3, 5, 10],
-    'min_samples_leaf': [1, 2, 3, 4, 5],
-    'class_weight': [None, 'balanced']
+    'max_depth': [None, 10, 20, 30],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 3, 4, 5]
     }
     
     # Create a list where train data indices are -1 and validation data indices are 0
     fold_size = len(y_test)
     split_index = [i // fold_size for i in range(len(x))]
-    print(split_index)
+    # print(split_index)
 
     # Use the list to create PredefinedSplit
     pds = PredefinedSplit(test_fold = split_index)
