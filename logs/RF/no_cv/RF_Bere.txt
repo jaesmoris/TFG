@@ -1,0 +1,63 @@
+RF without cross validation: Bere
+
+DATA:
+
+Train:	210 samples.
+Validation:	70 samples.
+Test:	70 samples.
+
+RESULTS:
+
+Test Accuracy: 0.8714285714285714
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        Bere       0.84      0.91      0.88        35
+      NoBere       0.91      0.83      0.87        35
+
+    accuracy                           0.87        70
+   macro avg       0.87      0.87      0.87        70
+weighted avg       0.87      0.87      0.87        70
+
+Confusion matrix:
+[[32  3]
+ [ 6 29]]
+
+Grid to search best model parameters:
+	n_estimators: [100, 200, 300, 400, 500]
+	max_features: ['sqrt', 'log2', 0.5]
+	max_depth: [None, 10, 20, 30]
+	min_samples_split: [2, 5, 10]
+	min_samples_leaf: [1, 2, 3, 4, 5]
+
+Best combination of parameters:
+	max_depth: None
+	max_features: sqrt
+	min_samples_leaf: 1
+	min_samples_split: 10
+	n_estimators: 500
+
+Model parameters:
+	bootstrap: True
+	ccp_alpha: 0.0
+	class_weight: None
+	criterion: gini
+	max_depth: None
+	max_features: sqrt
+	max_leaf_nodes: None
+	max_samples: None
+	min_impurity_decrease: 0.0
+	min_samples_leaf: 1
+	min_samples_split: 10
+	min_weight_fraction_leaf: 0.0
+	n_estimators: 500
+	n_jobs: None
+	oob_score: False
+	random_state: 42
+	verbose: 0
+	warm_start: False
+
+
+Random state: 42.
+Used custom folds in Cross Validation.
+Running time: 2980.07 seconds.

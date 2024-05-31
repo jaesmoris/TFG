@@ -1,0 +1,67 @@
+RF without cross validation: Landraces
+
+DATA:
+
+Train:	300 samples.
+Validation:	100 samples.
+Test:	100 samples.
+
+RESULTS:
+
+Test Accuracy: 0.77
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        Bere       0.87      0.80      0.83        25
+     British       0.67      0.80      0.73        25
+Scandinavian       0.77      0.80      0.78        25
+    Scottish       0.81      0.68      0.74        25
+
+    accuracy                           0.77       100
+   macro avg       0.78      0.77      0.77       100
+weighted avg       0.78      0.77      0.77       100
+
+Confusion matrix:
+[[20  3  2  0]
+ [ 0 20  2  3]
+ [ 3  1 20  1]
+ [ 0  6  2 17]]
+
+Grid to search best model parameters:
+	n_estimators: [100, 200, 300, 400, 500]
+	max_features: ['sqrt', 'log2', 0.5]
+	max_depth: [None, 10, 20, 30]
+	min_samples_split: [2, 5, 10]
+	min_samples_leaf: [1, 2, 3, 4, 5]
+
+Best combination of parameters:
+	max_depth: None
+	max_features: sqrt
+	min_samples_leaf: 3
+	min_samples_split: 10
+	n_estimators: 200
+
+Model parameters:
+	bootstrap: True
+	ccp_alpha: 0.0
+	class_weight: None
+	criterion: gini
+	max_depth: None
+	max_features: sqrt
+	max_leaf_nodes: None
+	max_samples: None
+	min_impurity_decrease: 0.0
+	min_samples_leaf: 3
+	min_samples_split: 10
+	min_weight_fraction_leaf: 0.0
+	n_estimators: 200
+	n_jobs: None
+	oob_score: False
+	random_state: 42
+	verbose: 0
+	warm_start: False
+
+
+Random state: 42.
+Used custom folds in Cross Validation.
+Running time: 4299.81 seconds.

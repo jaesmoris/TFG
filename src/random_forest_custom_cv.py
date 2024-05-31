@@ -42,8 +42,10 @@ experiments = ["Landraces", "Bere", "Origins", "Rows"]
 for experiment in experiments:
     # dataset_path = f"../../data/Oriented_Divided_SH_L50/{experiment}" # local
     dataset_path = f"/home/msiau/data/tmp/jesmoris/Oriented_Divided_SH_L50/{experiment}" # CVC server
-    log_path = f"../logs/RF/custom_cv/custom_cv_random_forest_{experiment}.txt"
-    save_model_path = f"../models/RF/custom_cv/custom_cv_best_random_forest_model_{experiment}.pkl"
+    log_path = f"../logs/RF/custom_cv/RF_{experiment}.txt"
+    save_model_path = f"../models/RF/custom_cv/RF_model_{experiment}.pkl"
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    os.makedirs(os.path.dirname(save_model_path), exist_ok=True)
     
     t_init = time()
     log_file_begin(log_path, experiment_name=experiment)
@@ -52,7 +54,7 @@ for experiment in experiments:
     data_folds, label_folds = load_dataset_by_folds(dataset_path)
     
     # Train/val 
-    x = data_folds[0]  + data_folds[1]  + data_folds[2] + data_folds[2]
+    x = data_folds[0]  + data_folds[1]  + data_folds[2] + data_folds[3]
     y = label_folds[0] + label_folds[1] + label_folds[2] + label_folds[3]
     log_file_string(log_path, f"{len(data_folds)-1} folds of {len(data_folds[0])} samples to cross validate, Total:\t{len(x)} samples.\n")
     # Test

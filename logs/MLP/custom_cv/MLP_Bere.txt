@@ -1,0 +1,63 @@
+MLP with custom cross validation: Bere
+
+DATA:
+
+4 folds of 70 samples to cross validate, Total:	280 samples.
+Test:	70 samples.
+
+RESULTS:
+
+Test Accuracy: 0.9571428571428572
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        Bere       0.94      0.97      0.96        35
+      NoBere       0.97      0.94      0.96        35
+
+    accuracy                           0.96        70
+   macro avg       0.96      0.96      0.96        70
+weighted avg       0.96      0.96      0.96        70
+
+Confusion matrix:
+[[34  1]
+ [ 2 33]]
+
+Grid to search best model parameters:
+	hidden_layer_sizes: [(50,), (100,), (100, 50), (100, 100), (100, 50, 25), (200, 100, 50)]
+	alpha: [0.0001, 0.001, 0.01, 0.1]
+	learning_rate_init: [0.001, 0.01, 0.1]
+
+Best combination of parameters:
+	alpha: 0.01
+	hidden_layer_sizes: (100,)
+	learning_rate_init: 0.01
+
+Model parameters:
+	activation: relu
+	alpha: 0.01
+	batch_size: auto
+	beta_1: 0.9
+	beta_2: 0.999
+	early_stopping: False
+	epsilon: 1e-08
+	hidden_layer_sizes: (100,)
+	learning_rate: constant
+	learning_rate_init: 0.01
+	max_fun: 15000
+	max_iter: 300
+	momentum: 0.9
+	n_iter_no_change: 10
+	nesterovs_momentum: True
+	power_t: 0.5
+	random_state: 42
+	shuffle: True
+	solver: adam
+	tol: 0.0001
+	validation_fraction: 0.1
+	verbose: False
+	warm_start: False
+
+
+Random state: 42.
+Used custom folds in Cross Validation.
+Running time: 1004.24 seconds.

@@ -1,0 +1,63 @@
+RF without cross validation: Rows
+
+DATA:
+
+Train:	408 samples.
+Validation:	136 samples.
+Test:	136 samples.
+
+RESULTS:
+
+Test Accuracy: 0.875
+Test Classification Report:
+              precision    recall  f1-score   support
+
+        2ROW       0.88      0.87      0.87        68
+        6ROW       0.87      0.88      0.88        68
+
+    accuracy                           0.88       136
+   macro avg       0.88      0.88      0.87       136
+weighted avg       0.88      0.88      0.87       136
+
+Confusion matrix:
+[[59  9]
+ [ 8 60]]
+
+Grid to search best model parameters:
+	n_estimators: [100, 200, 300, 400, 500]
+	max_features: ['sqrt', 'log2', 0.5]
+	max_depth: [None, 10, 20, 30]
+	min_samples_split: [2, 5, 10]
+	min_samples_leaf: [1, 2, 3, 4, 5]
+
+Best combination of parameters:
+	max_depth: 10
+	max_features: sqrt
+	min_samples_leaf: 1
+	min_samples_split: 10
+	n_estimators: 200
+
+Model parameters:
+	bootstrap: True
+	ccp_alpha: 0.0
+	class_weight: None
+	criterion: gini
+	max_depth: 10
+	max_features: sqrt
+	max_leaf_nodes: None
+	max_samples: None
+	min_impurity_decrease: 0.0
+	min_samples_leaf: 1
+	min_samples_split: 10
+	min_weight_fraction_leaf: 0.0
+	n_estimators: 200
+	n_jobs: None
+	oob_score: False
+	random_state: 42
+	verbose: 0
+	warm_start: False
+
+
+Random state: 42.
+Used custom folds in Cross Validation.
+Running time: 6291.90 seconds.
