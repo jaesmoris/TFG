@@ -13,6 +13,8 @@ En [src/utils](https://github.com/jaesmoris/TFG/tree/main/src/utils) están las 
 
 En [src/laboratory](https://github.com/jaesmoris/TFG/tree/main/src/laboratory) se encuentran algunas pruebas realizadas o scripts puntuales.
 
+En [docs](https://github.com/jaesmoris/TFG/tree/main/docs) se encuentra el informe final de este trabajo de fin de grado.
+
 En [models](https://github.com/jaesmoris/TFG/tree/main/models) se han guardado los modelos entrenados a lo largo de este proyecto.
 
 En [logs](https://github.com/jaesmoris/TFG/tree/main/logs) se ha registrado el transcurso del entrenamiento de modelos así como su evaluación.
