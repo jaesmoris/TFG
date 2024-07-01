@@ -34,7 +34,7 @@ Aquí se muestran algunas imágenes para ilustrar el proyecto.
 ##### Dataset y alineamiento
 
 <img src="./img/dataset/DHBT16T95 4.png" alt="armonico" style="width: 50%; height: auto;">
-<img src="./img/alineamiento/orientacion.png" alt="armonico" style="width: 50%; height: auto;">
+<img src="./img/alineamiento/orientacion-removebg-preview.png" alt="armonico" style="width: 50%; height: auto;">
 <img src="./img/alineamiento/oriented_dataset-removebg-preview.png" alt="armonico" style="width: 50%; height: auto;">
 
 ##### Armónicos esféricos
