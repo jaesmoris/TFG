@@ -17,27 +17,27 @@ En [models](https://github.com/jaesmoris/TFG/tree/main/models) se han guardado l
 
 En [logs](https://github.com/jaesmoris/TFG/tree/main/logs) se ha registrado el transcurso del entrenamiento de modelos así como su evaluación.
 
-En [Notebooks](https://github.com/jaesmoris/TFG/tree/main/Notebooks) contiene tres jupyter notebooks con la mayor parte del código de [src](https://github.com/jaesmoris/TFG/tree/main/src) detallando cómo usarlo. El primer notebook trata el alineamento de granos, el segundo la descomposicion y recomposición de granos usando armónicos esféricos y, finalmente, el tercero el entrenamiento y evaluación de modelos.
+[Notebooks](https://github.com/jaesmoris/TFG/tree/main/Notebooks) contiene tres Jupyter notebooks con la mayor parte del código de [src](https://github.com/jaesmoris/TFG/tree/main/src) detallando cómo usarlo. El primer notebook trata el alineamento de granos, el segundo la descomposicion y recomposición de granos usando armónicos esféricos y, finalmente, el tercero el entrenamiento y evaluación de modelos.
 
 
 ## Imágenes
 
 Aquí se muestran algunas imágenes para ilustrar el proyecto.
 
-##### Dataset y alineamiento
+#### Dataset y alineamiento
 
 Proceso de alineación del dataset.
 
 <img src="./img/dataset/DHBT16T95 4.png" alt="armonico" style="width: 45%; height: auto;"><img src="./img/alineamiento/oriented_dataset2.png" alt="armonico" style="width: 45%; height: auto;">
 <img src="./img/alineamiento/orientacion.png" alt="armonico" style="width: 90%; height: auto;">
 
-##### Armónicos esféricos
+#### Armónicos esféricos
 
 Figuras de algunos armónicos esféricos. Los granos se han representado como combinación lineal de estas formas.
 
 <img src="./img/armonicos/l2m0.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l0m0.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l2m1.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l4m-3.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l6m6.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l8m0.png" alt="armonico" style="width: 30%; height: auto;">
 
-##### Descomposición SH
+#### Descomposición SH
 
 Representaciones de un grano truncando la descomposicion SH en distintos límites.
 
