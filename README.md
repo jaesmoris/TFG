@@ -15,7 +15,7 @@ En [src/laboratory](https://github.com/jaesmoris/TFG/tree/main/src/laboratory) s
 
 En [models](https://github.com/jaesmoris/TFG/tree/main/models) se han guardado los modelos entrenados a lo largo de este proyecto.
 
-En [logs](https://github.com/jaesmoris/TFG/tree/main/logs) se han registrado el transcurso del entrenamiento de modelos así como su evaluación.
+En [logs](https://github.com/jaesmoris/TFG/tree/main/logs) se ha registrado el transcurso del entrenamiento de modelos así como su evaluación.
 
 En [Notebooks](https://github.com/jaesmoris/TFG/tree/main/Notebooks) contiene tres jupyter notebooks con la mayor parte del código de [src](https://github.com/jaesmoris/TFG/tree/main/src) detallando cómo usarlo. El primer notebook trata el alineamento de granos, el segundo la descomposicion y recomposición de granos usando armónicos esféricos y, finalmente, el tercero el entrenamiento y evaluación de modelos.
 
