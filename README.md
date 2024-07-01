@@ -42,6 +42,6 @@ Figuras de algunos armónicos esféricos. Los granos se han representado como co
 Representaciones de un grano truncando la descomposicion SH en distintos límites.
 
 <img src="./img/descomposicion SH/original.png" alt="armonico" style="width: 95%; height: auto;">
-<img src="./img/descomposicion SH/SH_5.png" alt="armonico" style="width: 45%; height: auto;"><img src="./img/descomposicion SH/SH_15.png" alt="armonico" style="width: 45%; height: auto;">
+<img src="./img/descomposicion SH/SH_5.png" alt="armonico" style="width: 40%; height: auto;"><img src="./img/descomposicion SH/SH_15.png" alt="armonico" style="width: 40%; height: auto;">
 <img src="./img/descomposicion SH/SH_30.png" alt="armonico" style="width: 45%; height: auto;"><img src="./img/descomposicion SH/SH_50.png" alt="armonico" style="width: 45%; height: auto;">
 <img src="./img/descomposicion SH/SH_70.png" alt="armonico" style="width: 45%; height: auto;"><img src="./img/descomposicion SH/SH_85.png" alt="armonico" style="width: 45%; height: auto;">
