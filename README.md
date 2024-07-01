@@ -35,7 +35,7 @@ Aquí se muestran algunas imágenes para ilustrar el proyecto.
 
 <img src="./img/dataset/DHBT16T95 4.png" alt="armonico" style="width: 50%; height: auto;">
 <img src="./img/alineamiento/orientacion.png" alt="armonico" style="width: 50%; height: auto;">
-<img src="./img/alineamiento/oriented_dataset.png" alt="armonico" style="width: 50%; height: auto;">
+<img src="./img/alineamiento/oriented_dataset-removebg-preview.png" alt="armonico" style="width: 50%; height: auto;">
 
 ##### Armónicos esféricos
 <img src="./img/armonicos/l2m0.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l0m0.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l2m1.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l4m-3.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l6m6.png" alt="armonico" style="width: 30%; height: auto;"><img src="./img/armonicos/l8m0.png" alt="armonico" style="width: 30%; height: auto;">
