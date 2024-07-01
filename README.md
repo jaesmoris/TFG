@@ -3,7 +3,7 @@
 
 ## Resumen del proyecto
 
-En este trabajo se explora el análisis morfométrico aplicado a granos de cebada con la ayuda de una representación en armónicos esféricos y su posible uso en experimentos de clasificación. Es una pequeña parte de un proyecto de investigación llevado a cabo por parte del [ICAC](www.icac.cat), el Instituto Catalán de Arqueología Clásica, con la colaboración del [Centro de Visión por Computador](https://www.cvc.uab.es/) de la Universitat Autònoma de Barcelona, proyecto en el que he colaborado desarrollando el código y los resultados que se encuentran en este repositorio.
+En este trabajo se explora el análisis morfométrico aplicado a granos de cebada con la ayuda de una representación en armónicos esféricos y su posible uso en experimentos de clasificación. Es una pequeña parte de un proyecto de investigación llevado a cabo por parte del [ICAC](www.icac.cat), el Instituto Catalán de Arqueología Clásica, con la colaboración del [CVC](https://www.cvc.uab.es/), el Centro de Visión por Computador de la Universitat Autònoma de Barcelona, proyecto en el que he colaborado desarrollando el código y los resultados que se encuentran en este repositorio.
 
 ## Guia del repositorio
 
